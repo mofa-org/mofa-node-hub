@@ -1,0 +1,16 @@
+# config.yml for bored_api_node
+# No sensitive information detected. Default configuration for API endpoints.
+
+bored_api:
+  # Bored API endpoints
+  endpoint_price: "http://www.boredapi.com/api/activity?minprice=0&maxprice=10"
+  endpoint_participants: "http://www.boredapi.com/api/activity?participants=3"
+  endpoint_random: "http://www.boredapi.com/api/activity/"
+
+  # Optionally, you can override parameters
+  default_minprice: 0
+  default_maxprice: 10
+  default_participants: 3
+
+  # Documentation
+  documentation_url: "https://www.boredapi.com/api/?ref=freepublicapis.com"

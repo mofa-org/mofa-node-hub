@@ -1,0 +1,9 @@
+# stgallen_pedestrian_sensor.yml - Configuration file for StGallenPedestrianSensor agent
+# All values have reasonable defaults and can be adjusted as needed.
+stgallen_pedestrian_sensor:
+  endpoint: "https://daten.stadt.sg.ch/api/explore/v2.1/catalog/datasets/fussganger-stgaller-innenstadt-vadianstrasse/records?order_by=datum_tag%20DESC&limit=20"
+  request_type: "GET"
+  description: "Measures pedestrian traffic in St. Gallen, showing the number of pedestrians passing by a sensor on Vadianstrasse."
+  documentation_url: "https://daten.stadt.sg.ch/explore/dataset/fussganger-stgaller-innenstadt-vadianstrasse/information/?disjunctive.tag_nr&disjunctive.wochentag&disjunctive.arbeitstag&sort=measured_at?ref=freepublicapis.com"
+  request_parameter: ""  # Set if any parameters are required
+  # error: false (controlled by code, usually not user-set)

@@ -1,0 +1,10 @@
+# MorseCodeTranslator: Configuration for morse_code_translator module
+# This YAML config manages runtime parameters for the Morse Code Translator node.
+
+translation_api:
+  endpoint: "https://api.funtranslations.com/translate/morse.json" # Translation service base endpoint
+  default_params:
+    text: "hello world"  # Default text for translation, can be overridden
+  request_type: "GET"   # Default HTTP method for requests
+
+# No sensitive credentials required for this public API node

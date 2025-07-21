@@ -1,0 +1,7 @@
+# config.yml
+# Default configuration for SportsDataApiNode
+# These are operational parameters and can be adjusted as needed
+sports_api:
+  base_url: "https://www.thesportsdb.com/api/v1/json/3/"
+  timeout: 10  # in seconds
+  retries: 3   # number of retries on failure

@@ -1,0 +1,13 @@
+# stephen_king_node.yml
+# Regular configuration for StephenKingDataNode
+
+api:
+  # Base URL for Stephen King API
+  base_url: "https://stephen-king-api.onrender.com/api"
+
+endpoints:
+  books: "/books"
+  villains: "/villains"
+  shorts: "/shorts"
+
+timeout: 30 # Default timeout in seconds for API requests

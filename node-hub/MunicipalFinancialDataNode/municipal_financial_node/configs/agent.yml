@@ -1,0 +1,6 @@
+# municipal_financial_node/config.yml
+# No sensitive keys or special configurations detected based on input APIs.
+#
+# You are accessing open South African municipal data APIs, requiring no API keys or external credentials.
+#
+# If future API endpoints require authentication or additional configuration, update this file accordingly.

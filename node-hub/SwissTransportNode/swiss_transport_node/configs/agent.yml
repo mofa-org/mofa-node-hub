@@ -1,0 +1,16 @@
+# swiss_transport_node.yml
+# Configuration for SwissTransportNode
+
+transport_api:
+  # Base URL for the OpenData transport API
+  base_url: "http://transport.opendata.ch/v1"
+  # Default limit for stationboard requests
+  default_stationboard_limit: 10  # You may modify as needed
+  # Default station (for demo or fallback)
+  default_station: "Aarau"
+  # Default query location (for demo or fallback)
+  default_query: "Basel"
+  # Default route (for demo or fallback)
+  default_route:
+    from: "Lausanne"
+    to: "Genève"

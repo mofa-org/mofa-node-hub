@@ -1,0 +1,8 @@
+# Configuration for Food Hygiene Rating Node
+# This file contains regular (non-sensitive) settings
+food_hygiene_node:
+  endpoint: "https://ratings.food.gov.uk/api/open-data-files/FHRS529en-GB.json"  # API endpoint for UK Food Hygiene Ratings
+  description: "The UK Food Hygiene Rating Data API provides access to food hygiene ratings issued to various food establishments across the UK."
+  documentation_url: "https://www.food.gov.uk/uk-food-hygiene-rating-data-api?ref=freepublicapis.com"  # API documentation
+  request_type: "GET"  # HTTP request method
+  # request_parameter is None, so not included

@@ -1,0 +1,15 @@
+# swissquote_forex_node.yml
+# Auto-generated configuration for SwissquoteForexQuoteNode
+# Non-sensitive operational parameters for Swissquote Forex API node
+
+endpoints:
+  - url: "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/XAU/USD"
+    description: "Swissquote Forex Trading XAU (Gold) / USD"
+    error: false
+  - url: "https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/EUR/USD"
+    description: "Swissquote Forex Trading EUR / USD"
+    error: false
+
+documentation_url: "https://www.swissquote.com/en-ch/private/trade/products/forex?ref=freepublicapis.com"
+request_type: "GET"
+# Add other non-sensitive configuration options as needed

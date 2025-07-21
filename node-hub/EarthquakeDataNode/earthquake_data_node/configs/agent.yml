@@ -1,0 +1,13 @@
+# Earthquake Data Node Configuration
+# Non-sensitive settings for earthquake API queries
+
+earthquake_api:
+  # The endpoint for the USGS earthquake API
+  endpoint: "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson"
+  # Default search parameters
+  default_params:
+    starttime: "2023-03-01"    # Example default value; set dynamically in production
+    endtime: "2023-03-02"      # Example default value; set dynamically in production
+    minmagnitude: 5             # Minimum magnitude for earthquake events
+  # Request type for the API
+  request_type: "GET"

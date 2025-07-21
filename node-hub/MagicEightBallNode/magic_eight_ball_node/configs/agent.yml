@@ -1,0 +1,5 @@
+# magic_eight_ball_node.yaml
+# This YAML config contains non-sensitive settings for the MagicEightBallNode
+
+endpoint: "https://m8b.gamerselimiko.workers.dev"  # API endpoint for Magic Eight Ball
+request_type: "GET"                                 # HTTP request method

@@ -1,0 +1,13 @@
+# advice_retriever_config.yml
+# YAML configuration for the AdviceRetrievalNode agent
+# No sensitive information detected; only basic operational parameters included
+
+advice_retriever:
+  api:
+    base_url: "https://kk-advice.koyeb.app/api"
+    endpoints:
+      get_all_advice: "/advice/all"
+      get_random_advice: "/advice"
+  request:
+    timeout: 10  # seconds
+    retries: 2    # Number of retry attempts on failure

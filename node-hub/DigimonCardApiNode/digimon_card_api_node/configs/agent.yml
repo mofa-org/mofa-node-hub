@@ -1,0 +1,27 @@
+# digimon_card_api_node/config.yml
+# Regular configuration for DigimonCardApiNode
+# All parameters below are non-sensitive and can be customized as needed
+
+api:
+  base_endpoints:
+    - "https://digimoncard.io/api-public/search.php"
+    - "https://digimoncard.io/api-public/getAllCards.php"
+  default_parameters:
+    search:
+      n: "Aldamon"
+      desc: "include a Digimon card"
+      color: "red"
+      type: "digimon"
+      attribute: "Variable"
+      card: "BT4-016"
+      pack: "BT-04: Booster Great Legend"
+      sort: "name"
+      sortdirection: "desc"
+      series: "Digimon Card Game"
+      digitype: "Wizard"
+      evocost: 3
+      evocolor: "Red"
+    get_all:
+      sort: "name"
+      series: "Digimon Card Game"
+      sortdirection: "asc"

@@ -1,0 +1,6 @@
+# Configuration for ShikimoriAnimeMangaNode
+# This configuration contains regular (non-sensitive) API parameters and settings
+shikimori_anime_manga:
+  api_base_url: "https://shikimori.one/api"  # Base URL for Shikimori API
+  timeout: 30  # Default timeout for requests in seconds
+  # No authentication or API key required for these endpoints

@@ -1,0 +1,7 @@
+# Configuration for InternetDBNode
+# This YAML config contains regular (non-sensitive) options
+
+internetdb_node:
+  endpoint: "https://internetdb.shodan.io/1.1.1.1"   # Shodan InternetDB endpoint
+  timeout: 10                                        # Default network request timeout in seconds
+  retries: 3                                         # Number of times to retry failed requests

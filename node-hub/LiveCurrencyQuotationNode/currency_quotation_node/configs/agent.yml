@@ -1,0 +1,16 @@
+# currency_quotation_node/config.yml
+# Standard configuration for LiveCurrencyQuotationNode
+
+api:
+  # Base endpoint for currency quotations API
+  endpoint: "https://fastapiproject-1-eziw.onrender.com/blue"
+  # Documentation URL for the API
+  documentation_url: "https://fastapiproject-1-eziw.onrender.com/docs?ref=freepublicapis.com"
+  # API request type
+  request_type: "GET"
+  # Description of the API
+  description: "API RESTful to obtain live quotations of foreign currencies in Argentina. It provides endpoints for various types of dollar quotes, as well as other currencies."
+  # Parameter to be sent (None by default for this endpoint)
+  request_parameter: null
+  # Set to true if the API should simulate an error
+  error: false

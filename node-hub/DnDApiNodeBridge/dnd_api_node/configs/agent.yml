@@ -1,0 +1,18 @@
+# dnd_api_node_config.yml
+# Auto-generated configuration for DnDApiNodeBridge
+
+endpoints:
+  - url: "https://www.dnd5eapi.co/api/races/dwarf"
+    description: "Dwarfs Data"
+    type: "GET"
+    request_parameter: ""
+  - url: "https://www.dnd5eapi.co/api/spells"
+    description: "All Spells"
+    type: "GET"
+    request_parameter: ""
+  - url: "https://www.dnd5eapi.co/api/ability-scores/cha"
+    description: "Get Ability Scores"
+    type: "GET"
+    request_parameter: ""
+documentation_url: "https://5e-bits.github.io/docs/?ref=freepublicapis.com"
+# No sensitive keys required. All parameters are public API endpoints.

@@ -1,0 +1,14 @@
+# NPPESProviderNode configuration
+defaults:
+  # API endpoint URL for the NPPES Provider service
+  endpoint: "https://npiregistry.cms.hhs.gov/api/?version=2.1&city=washington"
+
+  # Default city parameter for requests
+  request_parameter:
+    city: "washington"
+
+  # Request type (GET/POST)
+  request_type: "GET"
+
+  # Optional: Toggle error flag
+  error: false

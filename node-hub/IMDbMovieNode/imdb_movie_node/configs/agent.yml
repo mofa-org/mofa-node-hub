@@ -1,0 +1,23 @@
+# imdb_movie_node/config.yml
+# YAML configuration for IMDbMovieNode - non-sensitive parameters only
+
+api:
+  # Base URL for the IMDb API
+  base_url: "https://imdb.iamidiotareyoutoo.com"
+
+endpoints:
+  movie_details:
+    # Endpoint to obtain movie details by IMDb tt ID
+    path: "/search"
+    param: "tt"   # IMDb tt ID
+  search:
+    # Endpoint to search for movies
+    path: "/search"
+    param: "q"    # Search query
+
+# Default example requests
+examples:
+  - endpoint: "/search?tt=tt2250912"
+    description: "Gets Movie Details for tt2250912"
+  - endpoint: "/search?q=Spiderman"
+    description: "Searches for 'Spiderman'"

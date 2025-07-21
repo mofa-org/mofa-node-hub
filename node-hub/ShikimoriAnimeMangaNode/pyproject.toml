@@ -1,0 +1,22 @@
+# STRICT TEMPLATE - NO DEVIATIONS
+[tool.poetry]
+name = "ShikimoriAnimeMangaNode"
+version = "0.1.0"
+description = "Auto-generated agent package"
+authors = [
+    "Mofa Bot <mofa-bot@moxin.com>",
+    "Technical Owner <eng@moxin.com>"
+]
+packages = [{ include = "shikimori_anime_manga" }] # ⟨⟨critical⟩⟩ MUST PRESERVE USER INPUT
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pyarrow = ">= 5.0.0"
+requests = "*" # Detected: HTTP GET endpoints present
+
+[tool.poetry.scripts]
+ShikimoriAnimeMangaNode = "shikimori_anime_manga.main:main" # ⟨⟨unmodified⟩⟩ EXACT USER VALUES
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

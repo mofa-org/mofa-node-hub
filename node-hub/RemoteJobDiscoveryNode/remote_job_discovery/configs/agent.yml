@@ -1,0 +1,7 @@
+# remote_job_discovery.yml
+# Regular configuration for RemoteJobDiscoveryNode
+default_job_count: 20  # Default number of jobs to fetch per request
+region: usa           # Default region filter for jobs
+industry: marketing   # Default job industry
+job_tag: seo          # Default job tag for specialized job search
+api_endpoint: "https://jobicy.com/api/v2/remote-jobs" # API endpoint for job data

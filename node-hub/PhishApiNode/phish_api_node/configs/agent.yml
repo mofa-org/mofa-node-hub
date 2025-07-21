@@ -1,0 +1,11 @@
+# phish_api_node.yml
+# Configuration for PhishApiNode
+#
+# Default settings for the Phish.in public API node
+---
+api:
+  endpoint: "https://phish.in/api/v2/shows"    # The API endpoint for fetching Phish shows
+  description: "Get concerts that the band Phish have played, including legal audience recordings"
+  documentation_url: "https://phish.in/api-docs?ref=freepublicapis.com"
+  request_type: "GET"
+  request_parameter: null

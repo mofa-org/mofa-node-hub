@@ -1,0 +1,16 @@
+# openwhyd_music_node.yml
+# Configuration for OpenWhydMusicNode
+# No sensitive information detected. Example operational config below:
+
+openwhyd_music_node:
+  endpoints:
+    - url: "https://openwhyd.org/adrien?format=json"
+      description: "Get the last 20 Tracks of Adrien"
+      documentation_url: "https://openwhyd.github.io/openwhyd/API?ref=freepublicapis.com"
+      request_type: "GET"
+      request_parameter: null
+    - url: "https://openwhyd.github.io/openwhyd/API?ref=freepublicapis.com"
+      description: "YouTube Music"
+      documentation_url: "https://openwhyd.github.io/openwhyd/API?ref=freepublicapis.com"
+      request_type: "GET"
+      request_parameter: null

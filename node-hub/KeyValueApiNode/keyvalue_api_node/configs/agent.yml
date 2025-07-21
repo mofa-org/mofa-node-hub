@@ -1,0 +1,10 @@
+# Configuration for KeyValueApiNode
+# keyvalue_api_node/config.yml
+
+api:
+  # Endpoint to set a value for a key
+  set_endpoint: "https://api.keyval.org/set/scientist/einstein"
+  # Endpoint to get a value for a key
+  get_endpoint: "https://api.keyval.org/get/scientist/"
+  # Request type for API methods
+  request_type: "GET"

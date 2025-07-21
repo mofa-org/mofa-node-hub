@@ -1,0 +1,19 @@
+# unhcr_resettlement_node_config.yml
+# Node settings for UnhcrResettlementNode
+# Default values provided as per API documentation - adjust as needed
+
+endpoints:
+  regions: "http://api.unhcr.org/rsq/v1/regions"
+  categories: "http://api.unhcr.org/rsq/v1/categories"
+  departures: "http://api.unhcr.org/rsq/v1/departures"
+
+# Optional: default parameters for departures API
+params:
+  page: 1
+  year: "2016,2017"
+  origin: "MMR,SYR"
+  asylum: "JOR,LBN"
+  resettlement: "NOR,USA"
+
+# Documentation URLs
+documentation_url: "https://api.unhcr.org/docs/index.html?ref=freepublicapis.com"

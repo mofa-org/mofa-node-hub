@@ -1,0 +1,17 @@
+# Configuration for NominatimGeocodingNode
+# Contains non-sensitive operational parameters and defaults
+
+nominatim:
+  base_url: "https://nominatim.openstreetmap.org"
+  endpoints:
+    search_city: "/search.php"
+    details: "/details"
+    reverse: "/reverse"
+  default_format: "jsonv2"
+  default_city: "bern"
+  default_osmtype: "R"
+  default_osmid: 175905
+  default_lat: 40.7127281
+  default_lon: -74.0060152
+  default_zoom: 10
+# No sensitive keys required; operational config only

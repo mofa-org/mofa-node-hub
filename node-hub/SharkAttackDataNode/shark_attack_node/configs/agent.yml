@@ -1,0 +1,13 @@
+# shark_attack_node.yml
+# Configuration for SharkAttackDataNode
+
+api:
+  endpoint: "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/global-shark-attack/records"
+  default_params:
+    limit: 20
+    refine: 'date:"2023/08"'
+    # Adjust year/month as needed
+  description: "Search Shark Attack by Year (here 2023)"
+  documentation_url: "https://public.opendatasoft.com/explore/dataset/global-shark-attack?ref=freepublicapis.com"
+  request_type: "GET"
+  error: false

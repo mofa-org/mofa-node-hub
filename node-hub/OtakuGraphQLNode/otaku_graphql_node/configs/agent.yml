@@ -1,0 +1,11 @@
+# otaku_graphql_node_config.yml
+# Configuration for OtakuGraphQLNode
+
+graphql:
+  # GraphQL API endpoint (DO NOT change unless custom endpoint is required)
+  endpoint: "https://api.fussy.fun/graphql"
+  description: "GraphQL Endpoint for get and post otaku data"
+  documentation_url: "https://fussy-inc.github.io/docs/?ref=freepublicapis.com"
+  request_type: "POST"
+  request_parameter: "Copy JSON Key| Value ---|---"
+  error: false

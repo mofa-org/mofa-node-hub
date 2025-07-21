@@ -1,0 +1,11 @@
+# config.yml for open_north_representatives
+# Non-sensitive configuration for OpenNorthRepresentativesNode integration.
+
+represent_opennorth:
+  # Default API host for Open North Representatives
+  api_base_url: "https://represent.opennorth.ca/"
+
+# Default example queries that can be modified as needed
+example_queries:
+  - first_name: "Jack"
+  - postcode: "L5G4L3"

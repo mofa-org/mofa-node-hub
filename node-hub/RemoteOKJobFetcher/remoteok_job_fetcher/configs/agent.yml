@@ -1,0 +1,7 @@
+# remoteok_job_fetcher_config.yml
+# Configuration file for RemoteOKJobFetcher
+
+remoteok_job_fetcher:
+  endpoint: "https://remoteok.com/api" # API endpoint to fetch jobs
+  request_type: "GET"                # HTTP request method
+  request_parameter: ""              # Parameters for API request (currently none)

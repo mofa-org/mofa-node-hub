@@ -1,0 +1,27 @@
+# config.yml for transport_rest_node
+# General settings for TransportRestNodeConnector
+
+db_stations_api:
+  base_url: "https://v6.db.transport.rest"
+  # Endpoints and their purpose
+  endpoints:
+    - name: "stations_with_dblounge"
+      path: "/stations"
+      params:
+        hasDBLounge: true
+      description: "Filter db-stations by hasDBLounge property, get newline-delimited JSON"
+      documentation_url: "https://transport.rest/?ref=freepublicapis.com"
+    - name: "autocomplete_stations"
+      path: "/stations"
+      params:
+        query: "dammt"
+      description: "Autocomplete using db-stations-autocomplete"
+      documentation_url: "https://transport.rest/?ref=freepublicapis.com"
+    - name: "departures_from_halle"
+      path: "/stops/8010159/departures"
+      params:
+        direction: 8011113
+        duration: 120
+      description: "Halle (Saale) Hbf, in direction Berlin Südkreuz"
+      documentation_url: "https://transport.rest/?ref=freepublicapis.com"
+  default_timeout: 30  # seconds

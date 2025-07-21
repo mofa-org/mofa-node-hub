@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "HongKongMuseumLocator"
+version = "0.1.0"
+description = "Auto-generated agent package"
+authors = [
+    "Mofa Bot <mofa-bot@moxin.com>",
+    "Technical Owner <eng@moxin.com>"
+]
+packages = [{ include = "hk_museum_locator" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pyarrow = ">= 5.0.0"
+requests = "*"
+
+[tool.poetry.scripts]
+HongKongMuseumLocator = "hk_museum_locator.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

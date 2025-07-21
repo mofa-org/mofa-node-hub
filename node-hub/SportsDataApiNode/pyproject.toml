@@ -1,0 +1,22 @@
+# STRICT TEMPLATE - NO DEVIATIONS
+[tool.poetry]
+name = "SportsDataApiNode"
+version = "0.1.0"
+description = "Auto-generated agent package"
+authors = [
+    "Mofa Bot <mofa-bot@moxin.com>",
+    "Technical Owner <eng@moxin.com>"
+]
+packages = [{ include = "sports_data_node" }] # ⟨⟨critical⟩⟩ MUST PRESERVE USER INPUT
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pyarrow = ">= 5.0.0"
+requests = "*"
+
+[tool.poetry.scripts]
+SportsDataApiNode = "sports_data_node.main:main" # ⟨⟨unmodified⟩⟩ EXACT USER VALUES
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

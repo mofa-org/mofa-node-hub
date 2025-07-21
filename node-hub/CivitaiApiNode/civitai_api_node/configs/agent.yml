@@ -1,0 +1,13 @@
+# civitai_api_node_config.yml
+# Regular operational parameters for CivitaiApiNode
+# Adjust settings as needed
+
+civitai_api_node:
+  api_base_url: "https://civitai.com/api/v1"
+  # Default parameters for endpoints
+  default_model_params:
+    limit: 10
+    nsfw: "none"
+  default_image_params:
+    limit: 10
+    nsfw: "none"

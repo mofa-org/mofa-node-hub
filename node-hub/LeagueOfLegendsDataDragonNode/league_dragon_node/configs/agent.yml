@@ -1,0 +1,15 @@
+# league_dragon_node.yml
+# Regular configuration for LeagueOfLegendsDataDragonNode
+# No sensitive credentials detected
+
+league_dragon_node:
+  # Data Dragon API endpoint for League of Legends champion data
+  data_dragon_endpoint: "https://ddragon.leagueoflegends.com/cdn/14.3.1/data/en_US/champion.json"
+  # Expected request type
+  request_type: "GET"
+  # Description for context/documentation
+  description: "Data Dragon is a static data API providing information and images related to champions, runes, and items in League of Legends."
+  # Official documentation URL
+  documentation_url: "https://riot-api-libraries.readthedocs.io/en/latest/ddragon.html?ref=freepublicapis.com"
+  # No request parameters required
+  request_parameter: null

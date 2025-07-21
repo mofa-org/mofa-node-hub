@@ -1,0 +1,8 @@
+# ringtone_search_node/config.yml
+# Configuration file for RingtoneSearchNode
+# Adjust values as needed.
+
+api_endpoint: "https://abhi-api.vercel.app/api/search/ringtone"
+# Default query parameter for requests. Modify when using different search.
+default_text: "iPhone"
+request_type: "GET"

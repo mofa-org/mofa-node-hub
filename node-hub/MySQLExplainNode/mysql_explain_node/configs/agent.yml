@@ -1,0 +1,20 @@
+# Configuration for mysql_explain_node - MySQLExplainNode
+# All endpoints in this node are public/require no authentication
+# You can change defaults as needed for custom setups
+
+api:
+  # Available endpoints
+  oembed_url: "https://api.mysqlexplain.com/v2/oembed.json"
+  explains_url: "https://api.mysqlexplain.com/v2/explains"
+
+  # Default parameters for oEmbed (GET)
+  default_oembed_params:
+    showFullscreenButton: true
+
+  # Default parameters for submit explain (POST)
+  default_submit_params:
+    query: "SELECT 1"
+    version: ""
+    bindings: []
+    explain_json: {}
+    explain_tree: {}

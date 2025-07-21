@@ -1,0 +1,8 @@
+# energy_bern_radio_config.yml
+# Default configuration for the EnergyBernRadioNode agent/module
+energy_bern_radio:
+  endpoint: "https://energy.ch/api/channels/bern/playouts"  # The API endpoint for the radio station
+  description: "Provides various radio stations with different music genres and themes."
+  documentation_url: "https://energy.ch/stations/energy-bern/playlist?ref=freepublicapis.com"
+  request_type: GET  # Only GET requests are supported for this endpoint.
+  request_parameter: null  # No parameters needed

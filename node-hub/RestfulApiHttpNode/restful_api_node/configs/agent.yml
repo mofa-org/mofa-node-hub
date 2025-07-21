@@ -1,0 +1,9 @@
+# restful_api_node.yml
+# Configuration for RestfulApiHttpNode
+# No sensitive keys detected. Only regular configuration is included.
+
+api:
+  endpoint: "https://api.restful-api.dev/objects"  # The API endpoint for the HTTP node
+  request_type: "GET"  # Default HTTP request type
+  error: false  # Error flag; set to true to activate error mode
+  documentation_url: "https://restful-api.dev/?ref=freepublicapis.com"  # Link to API documentation

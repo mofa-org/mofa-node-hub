@@ -1,0 +1,11 @@
+# color_api_node_config.yml
+
+# API endpoints to perform color processing
+color_api:
+  endpoints:
+    - https://color.serialif.com/aquamarine
+    - https://color.serialif.com/55667788
+  # Feature toggle: Enable or disable debug mode
+  debug_mode: false
+
+# Add other non-sensitive configuration here as you grow

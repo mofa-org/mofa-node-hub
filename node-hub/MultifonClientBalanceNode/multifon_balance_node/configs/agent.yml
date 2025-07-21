@@ -1,0 +1,6 @@
+# config.yml for multifon_balance_node
+# Non-sensitive operational defaults
+multifon:
+  endpoint: "https://sm.megafon.ru/sm/client/balance"
+  request_type: "GET"
+  timeout: 30  # default API timeout in seconds

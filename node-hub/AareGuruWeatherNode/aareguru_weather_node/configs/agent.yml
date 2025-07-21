@@ -1,0 +1,9 @@
+# Configuration for AareGuruWeatherNode
+# These parameters are for operational customization and are not sensitive.
+
+api:
+  base_url: "https://aareguru.existenz.ch/v2018"
+  default_city: "bern"
+  timeout: 10  # seconds (default HTTP timeout)
+
+# No sensitive credentials or tokens required for this API.

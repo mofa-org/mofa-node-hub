@@ -1,0 +1,13 @@
+# fedora_query_node/config.yml
+# Configuration file for FedoraMessageQueryNode
+# API endpoint and query-related defaults
+
+fedora_message_query:
+  endpoint: "https://apps.fedoraproject.org/datagrepper/v2/search"
+  timeout: 30  # Default timeout in seconds for all requests
+  default_params:
+    # Example parameter keys. Modify as needed for actual queries.
+    username: null
+    package: null
+    source: null
+    topic: null

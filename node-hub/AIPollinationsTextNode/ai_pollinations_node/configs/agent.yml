@@ -1,0 +1,6 @@
+# ai_pollinations_node/config.yml
+# Regular configurations for AIPollinationsTextNode
+
+pollinations_endpoint: "https://text.pollinations.ai/Hello"  # Default AI Text Generator endpoint
+request_type: "GET"  # HTTP request method
+use_error_handling: true  # Enable error handling by default

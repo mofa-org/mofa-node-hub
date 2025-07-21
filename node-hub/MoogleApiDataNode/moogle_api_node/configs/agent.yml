@@ -1,0 +1,19 @@
+# moogle_api_node_config.yml
+# Configuration for MoogleApiDataNode
+
+api:
+  # Base URL for Moogle API endpoints
+  base_url: "https://www.moogleapi.com/api/v1"
+
+endpoints:
+  games:
+    path: "/games"
+    description: "Retrieve all games information."
+  monsters:
+    path: "/monsters"
+    description: "Retrieve all monsters information."
+  characters:
+    path: "/characters"
+    description: "Retrieve all characters information."
+
+# No authentication required for these endpoints (public API)

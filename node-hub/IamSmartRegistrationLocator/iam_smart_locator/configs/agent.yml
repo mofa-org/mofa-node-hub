@@ -1,0 +1,19 @@
+# Configuration for IamSmartRegistrationLocator Node
+# List of endpoints to fetch registration information
+iam_smart_locator:
+  endpoints:
+    - url: "https://www.digitalpolicy.gov.hk/open_data/iam_smart/iAM-Smart-RegistrationMobileTeamService.json"
+      description: "Provides information about mobile registration points for the iAM Smart service."
+      documentation_url: "https://data.gov.hk/en-data/dataset/hk-dpo-dpo_hp-iam-smart-registration-locations"
+      request_type: "GET"
+      request_parameter: ""
+    - url: "https://www.digitalpolicy.gov.hk/open_data/iam_smart/iAM-Smart-RegistrationServiceCounter.json"
+      description: "Provides information about registration service counters for the iAM Smart service."
+      documentation_url: "https://data.gov.hk/en-data/dataset/hk-dpo-dpo_hp-iam-smart-registration-locations"
+      request_type: "GET"
+      request_parameter: ""
+    - url: "https://www.digitalpolicy.gov.hk/open_data/iam_smart/iAM-Smart-SelfRegistrationKiosk.json"
+      description: "Provides information about self-registration kiosks for the iAM Smart service."
+      documentation_url: "https://data.gov.hk/en-data/dataset/hk-dpo-dpo_hp-iam-smart-registration-locations"
+      request_type: "GET"
+      request_parameter: ""

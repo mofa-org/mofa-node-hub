@@ -1,0 +1,10 @@
+# amiibo_character_node.yaml
+# Configuration for AmiiboCharacterNode
+# No sensitive information detected; all config is non-sensitive
+
+amiibo_api:
+  endpoint: "https://www.amiiboapi.com/api/amiibo/"
+  request_type: "GET"
+  default_character: "mario"   # Default character for request
+  documentation_url: "https://amiiboapi.com/docs/?ref=freepublicapis.com"
+  timeout: 10                  # HTTP request timeout (seconds)

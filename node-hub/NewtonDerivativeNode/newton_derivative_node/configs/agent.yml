@@ -1,0 +1,11 @@
+# Configuration for NewtonDerivativeNode
+# This yaml includes regular settings for the Newton Derivative Node
+# No sensitive or authentication data detected
+
+node:
+  endpoint: "https://newton.now.sh/api/v2/derive/x%5E2"  # API endpoint for derivation
+  description: "Find the derivative of x^2."
+  documentation_url: "https://github.com/aunyks/newton-api?ref=freepublicapis.com"
+  request_type: "GET"
+  request_parameter: null
+  error: false

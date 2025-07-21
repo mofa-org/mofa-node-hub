@@ -1,0 +1,10 @@
+# uptime_api_node.yml
+# Configuration for UptimeApiNode
+
+uptime_api_node:
+  endpoint: "https://get.uptime.is/api"   # Default API endpoint
+  request_type: "GET"                     # Request method
+  description: "API for converting percentages to periods of allowed downtime, and converting downtime durations to corresponding uptime."
+  documentation_url: "https://uptime.is/about#api?ref=freepublicapis.com"
+  request_parameter: null                  # No parameter specified
+  error: false                            # Default error state

@@ -1,0 +1,10 @@
+# parking_status_node_config.yml
+# Configuration for ParkingStatusNode agent
+
+# List of parking status API endpoints
+endpoints:
+  - https://api.parkendd.de/Zuerich
+  - https://api.parkendd.de/Basel
+
+# You can adjust timeout settings if needed (in seconds)
+timeout: 30

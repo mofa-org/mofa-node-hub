@@ -1,0 +1,10 @@
+# webpage_markdown_node/config.yml
+# General configuration for WebpageMarkdownConverterNode
+
+webpage_markdown_converter:
+  endpoint: "https://urltomarkdown.herokuapp.com"
+  api:
+    request_type: "GET"
+    parameter: "url"
+  # Default request timeout (in seconds)
+  timeout: 20

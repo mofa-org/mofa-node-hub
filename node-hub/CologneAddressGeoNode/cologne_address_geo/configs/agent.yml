@@ -1,0 +1,9 @@
+# cologne_address_geo.yml
+# Configuration file for CologneAddressGeoNode
+node:
+  endpoint: "https://geoportal.stadt-koeln.de/arcgis/rest/services/basiskarten/adressen_gesamt/MapServer?f=pjson"
+  description: "This API provides access to Cologne's address dataset."
+  documentation_url: "https://offenedaten-koeln.de/dataset/adressen-k%C3%B6ln?ref=freepublicapis.com"
+  request_type: "GET"
+  request_parameter: "Copy URL Parameter| Value"
+  error: false

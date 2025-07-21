@@ -1,0 +1,9 @@
+# job_board_node_config.yml
+# Configuration for JobBoardSponsorshipNode agent
+
+api:
+  endpoint: "https://arbeitnow.com/api/job-board-api"  # API endpoint for job board
+  documentation_url: "https://documenter.getpostman.com/view/18545278/UVJbJdKh"  # External API docs URL
+  request_type: "GET"  # HTTP request method
+  request_parameter: null  # No request parameters required
+  error: false  # Error flag default

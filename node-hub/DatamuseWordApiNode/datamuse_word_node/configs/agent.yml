@@ -1,0 +1,17 @@
+# Config file for DatamuseWordApiNode
+# Non-sensitive parameters for API operations and endpoints
+
+api_endpoints:
+  - endpoint: "https://api.datamuse.com/words?ml=ringing+in+the+ears"
+    description: "words with a meaning similar to ringing in the ears"
+    request_type: "GET"
+    request_parameter: "ml=ringing+in+the+ears"
+  - endpoint: "https://api.datamuse.com/words?sl=jirraf"
+    description: "words that sound like jirraf"
+    request_type: "GET"
+    request_parameter: "sl=jirraf"
+  - endpoint: "https://api.datamuse.com/words?ml=duck&sp=b*"
+    description: "words related to duck that start with the letter b"
+    request_type: "GET"
+    request_parameter: "ml=duck&sp=b*"
+# No sensitive information detected; no .env file required.

@@ -1,0 +1,6 @@
+# argentina_feriados/settings.yml
+# Configuration for ArgentinaFeriadosFetcher
+
+api:
+  endpoint: "https://api.argentinadatos.com/v1/feriados/"  # Public API endpoint
+  timeout: 10  # Request timeout in seconds

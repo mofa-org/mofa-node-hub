@@ -1,0 +1,10 @@
+# product_insertion_node.yml
+# Configuration for ProductInsertionNode
+# All fields are non-sensitive defaults for the agent
+
+endpoint: "https://api.predic8.de/shop/v2/products/"
+description: "Insert a Product"
+documentation_url: "https://www.predic8.de/post-put-patch-beispiel.htm?ref=freepublicapis.com"
+request_type: "POST"
+request_parameter: "JSON Key| Value"
+error: false

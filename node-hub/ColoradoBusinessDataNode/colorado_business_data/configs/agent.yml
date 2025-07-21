@@ -1,0 +1,10 @@
+# colorado_business_data/config.yml
+# Configuration for ColoradoBusinessDataNode
+
+node:
+  endpoint: "https://data.colorado.gov/resource/4ykn-tg5h.json"  # Public API endpoint for Colorado businesses
+  description: "Businesses in Colorado"  # Node description
+  documentation_url: "https://data.colorado.gov/browse?ref=freepublicapis.com"  # Additional documentation
+  request_type: GET  # HTTP method
+  request_parameter: null  # No parameters specified
+  error: false  # Default error flag

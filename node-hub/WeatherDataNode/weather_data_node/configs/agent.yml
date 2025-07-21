@@ -1,0 +1,5 @@
+# config.yml for WeatherDataNode
+weatherxu:
+  endpoint: "https://api.weatherxu.com"  # API endpoint
+  default_timeout: 10                     # seconds, reasonable default
+  retries: 2                              # number of times to retry a failed request

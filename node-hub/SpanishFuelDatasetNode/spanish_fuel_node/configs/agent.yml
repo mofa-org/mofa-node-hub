@@ -1,0 +1,13 @@
+# spanish_fuel_node/config.yml
+# Configuration for SpanishFuelDatasetNode
+dataset:
+  # API endpoint for Spanish fuel datasets
+  endpoint: "https://datos.gob.es/apidata/catalog/dataset?_sort=title&_pageSize=10&_page=0"
+  # Dataset description
+  description: "Provides information about fuel prices at gas stations in Spain."
+  # API documentation URL
+  documentation_url: "https://datos.gob.es/en/apidata#!/distribution/findAllDistributions?ref=freepublicapis.com"
+  # Type of HTTP request
+  request_type: "GET"
+  # Default request parameters (if any)
+  request_parameter: "Copy URL Parameter| Value ---|---"

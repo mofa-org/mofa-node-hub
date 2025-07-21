@@ -1,0 +1,14 @@
+# liturgical_calendar_node/config.yml
+# Configuration for the LiturgicalCalendarNode agent
+
+# API endpoint for today's calendar data
+calendar_today_endpoint: "http://calapi.inadiutorium.cz/api/v0/en/calendars/default/today"
+
+# API endpoint for the list of available calendars
+calendars_list_endpoint: "http://calapi.inadiutorium.cz/api/v0/en/calendars"
+
+# Request type for the API (GET)
+request_type: "GET"
+
+# Any request parameters (currently none)
+request_parameter: null

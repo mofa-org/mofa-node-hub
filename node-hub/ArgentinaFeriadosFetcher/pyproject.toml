@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ArgentinaFeriadosFetcher"
+version = "0.1.0"
+description = "Auto-generated agent package"
+authors = [
+    "Mofa Bot <mofa-bot@moxin.com>",
+    "Technical Owner <eng@moxin.com>"
+]
+packages = [{ include = "argentina_feriados" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pyarrow = ">= 5.0.0"
+requests = "*" # Detected: uses HTTP GET endpoint
+
+[tool.poetry.scripts]
+ArgentinaFeriadosFetcher = "argentina_feriados.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

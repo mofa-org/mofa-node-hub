@@ -1,0 +1,8 @@
+# radio_srf_music_config.yml
+# Configuration for RadioSrfMusicNode
+
+endpoint: "https://il.srgssr.ch/integrationlayer/2.0/srf/songList/radio/byChannel/69e8ac16-4327-4af4-b873-fd5cd6e895a7"  # Radio SRF 1 music API endpoint
+description: "API providing information about currently played music on Radio SRF 1 including song titles and artists."
+documentation_url: "https://www.srf.ch/radio-srf-1/gespielte-musik?ref=freepublicapis.com"
+request_type: "GET"
+request_parameter: null

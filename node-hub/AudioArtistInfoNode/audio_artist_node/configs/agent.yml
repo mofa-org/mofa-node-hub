@@ -1,0 +1,16 @@
+# audio_artist_node_config.yml
+# Configuration file for AudioArtistInfoNode
+# All parameters here are non-sensitive.
+
+audiodb:
+  # Base endpoint for TheAudioDB API
+  endpoint: "https://www.theaudiodb.com/api/v1/json/2/search.php"
+  # Default search artist parameter
+  default_artist: "coldplay"
+  # Request type for lookups
+  request_type: "GET"
+  # Request parameter key
+  request_parameter: "s"
+
+# This configuration does not contain sensitive info.
+# Adjust endpoint/artist defaults as needed for your workflow.

@@ -1,0 +1,10 @@
+# youtube_video_node.yml
+# Configuration for the YouTubeVideoDataNode
+# All parameters are non-sensitive (API is public, no keys or tokens required)
+youtube_api:
+  endpoint: "https://abhi-api.vercel.app/api/search/yts"
+  default_search_text: "heat waves"
+  request_type: "GET"
+  example_request_parameter: "text=heat+waves"
+  documentation_url: "https://abhi-api.vercel.app/api/search/yts?text=heat+waves?ref=freepublicapis.com"
+  # No authentication or secrets required, public API

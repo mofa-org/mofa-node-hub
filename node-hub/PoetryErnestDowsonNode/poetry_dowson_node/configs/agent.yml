@@ -1,0 +1,15 @@
+# poetry_dowson_node_config.yml
+# Node Configuration for PoetryErnestDowsonNode
+# No sensitive information detected; regular settings only.
+
+endpoints:
+  - url: "https://poetrydb.org/author/Ernest%20Dowson"
+    description: "Poetry from Ernest Dowson"
+    request_type: "GET"
+    request_parameter: null
+    documentation_url: "https://github.com/thundercomb/poetrydb#readme"
+  - url: "https://poetrydb.org/title/love/lines.json"
+    description: "Lines about Love"
+    request_type: "GET"
+    request_parameter: null
+    documentation_url: "https://github.com/thundercomb/poetrydb#readme"

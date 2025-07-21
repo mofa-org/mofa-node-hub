@@ -1,0 +1,16 @@
+# Configuration for HackerNewsDataNode node
+# No sensitive keys detected; non-sensitive settings provided below
+
+hackernews:
+  # List of public Hacker News endpoints for different data types
+  endpoints:
+    - url: "https://hacker-news.firebaseio.com/v0/item/8863.json?print=pretty"
+      description: "Provides public Hacker News data in near real time. Includes information on stories."
+    - url: "https://hacker-news.firebaseio.com/v0/item/192327.json?print=pretty"
+      description: "Provides public Hacker News data in near real time. Includes information on jobs."
+    - url: "https://hacker-news.firebaseio.com/v0/item/2921983.json?print=pretty"
+      description: "Provides public Hacker News data in near real time. Includes information on comments."
+  # Default timeout for GET requests (in seconds)
+  timeout: 30
+
+# No sensitive or authentication keys detected. Purely public API usage.

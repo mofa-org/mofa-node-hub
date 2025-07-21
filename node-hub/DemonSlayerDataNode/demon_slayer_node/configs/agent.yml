@@ -1,0 +1,15 @@
+# demon_slayer_node_config.yml
+# Default configuration for DemonSlayerDataNode
+
+endpoints:
+  characters:
+    url: "https://www.demonslayer-api.com/api/v1/characters"
+    request_type: "GET"
+    description: "Provides character data from the Demon Slayer anime."
+  combat_styles:
+    url: "https://www.demonslayer-api.com/api/v1/combat-styles"
+    request_type: "GET"
+    description: "Provides combat style data from the Demon Slayer anime."
+
+# No API key or token required (public API)
+# You may adjust endpoints or add more if the API expands

@@ -1,0 +1,15 @@
+# tide_buoy_node-config.yml
+# General configuration for TideBuoyDataNode
+# No sensitive data detected, only normal operational parameters.
+
+endpoints:
+  - name: NOAA_Tide_Predictions
+    url: https://surftruths.com/api/tide/stations.json
+    description: NOAA Tide Predictions API endpoint
+    documentation: https://surftruths.com/api.html?ref=freepublicapis.com
+    method: GET
+  - name: NDBC_Buoy_Data
+    url: https://surftruths.com/api/buoys.json
+    description: NDBC Buoy Data API endpoint
+    documentation: https://surftruths.com/api.html?ref=freepublicapis.com
+    method: GET

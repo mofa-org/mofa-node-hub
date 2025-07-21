@@ -1,0 +1,9 @@
+# config.yml for bng_to_latlong
+# Non-sensitive configuration for the BNGToLatLongConverter node
+
+api_config:
+  endpoint: "https://api.getthedata.com/bng2latlong/529090/179645"  # Public endpoint, typically not sensitive
+  request_type: "GET"
+  timeout: 30 # reasonable default timeout (seconds)
+  description: "This API converts OSGB36 easting and northing coordinates (British National Grid) into WGS84 latitude and longitude."
+  documentation_url: "https://www.getthedata.com/bng2latlong?ref=freepublicapis.com"

@@ -1,0 +1,10 @@
+# nhl_standings_node configuration
+# Configuration for NHL Standings Node API integration.
+nhl_standings_node:
+  # API endpoint for NHL standings
+  endpoint: "https://api-web.nhle.com/v1/standings-season"
+  # Default request type for API access
+  request_type: "GET"
+  # Documentation reference URL
+  documentation_url: "https://gitlab.com/dword4/nhlapi"
+  # Add any additional configurable parameters if needed

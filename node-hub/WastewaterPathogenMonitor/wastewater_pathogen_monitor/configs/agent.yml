@@ -1,0 +1,14 @@
+# wastewater_pathogen_monitor.yml
+# YAML configuration for WastewaterPathogenMonitor Node
+
+endpoints:
+  - url: "https://data.bs.ch/api/explore/v2.1/catalog/datasets/100187/records?limit=20"
+    description: "SARS-CoV-2 in wastewater (gene copies per 100,000 people) and people tested positive for SARS-CoV-2"
+    documentation_url: "https://data.bs.ch/pages/abwassermonitoring-dashboard/?flg=de-ch?ref=freepublicapis.com"
+    request_type: "GET"
+    request_parameter: "Copy URL Parameter | Value"
+  - url: "https://data.bs.ch/api/explore/v2.1/catalog/datasets/100302/records?limit=20"
+    description: "Influenza A in wastewater (gene copies per 100,000 people) and people tested positive for Influenza A"
+    documentation_url: "https://data.bs.ch/pages/abwassermonitoring-dashboard/?flg=de-ch?ref=freepublicapis.com"
+    request_type: "GET"
+    request_parameter: "Copy URL Parameter | Value"

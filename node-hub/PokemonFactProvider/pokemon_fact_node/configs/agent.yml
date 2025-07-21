@@ -1,0 +1,10 @@
+# pokemon_fact_node.yml
+# Configuration for the PokemonFactProvider node
+
+api:
+  endpoint: "https://pokefacts.vercel.app/"   # API endpoint for Pokemon facts
+  request_type: "GET"                          # HTTP method
+  documentation_url: "https://pokefacts.vercel.app?ref=freepublicapis.com"
+  request_parameter: ""                        # No parameters required by default
+  description: "API chooses a random Pokemon fact and displays it to the user."
+  error: false                                 # Error state toggle (default false)

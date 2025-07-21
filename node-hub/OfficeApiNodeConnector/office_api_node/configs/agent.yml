@@ -1,0 +1,13 @@
+# office_api_node.yml
+# Configuration file for OfficeApiNodeConnector
+# No sensitive information required for these endpoints.
+
+api_endpoints:
+  episodes: "https://theofficeapi.dev/api/episodes"
+  characters: "https://theofficeapi.dev/api/characters"
+
+# You may configure request timeouts or other non-sensitive options here:
+timeout: 10  # seconds
+
+# Documentation for API usage is available at:
+documentation_url: "https://theofficeapi.dev?ref=freepublicapis.com"

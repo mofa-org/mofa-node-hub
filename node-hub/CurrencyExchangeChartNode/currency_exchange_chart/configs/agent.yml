@@ -1,0 +1,18 @@
+# config.yml for CurrencyExchangeChartNode
+# Configuration for currency exchange API node
+
+api:
+  base_url: "https://kekkai-api.redume.su/api"
+  documentation_url: "https://kekkai-docs.redume.su"
+  default_from_currency: "RUB"  # Default base currency
+  default_conv_currency: "USD"   # Default conversion currency
+  timeout: 10                    # API request timeout in seconds
+
+default_chart_period:
+  days: 7                        # Default number of days for chart if not specified
+
+default_rate_period:
+  start_offset: 7                # Default start days before today for history
+  end_offset: 0                  # Default end (0=today)
+
+# No sensitive keys detected. See https://kekkai-docs.redume.su for more info.

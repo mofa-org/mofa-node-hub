@@ -1,0 +1,14 @@
+# geonet_api_node/config.yml
+
+# Default operational settings for GeonetApiNode
+dns_lookup:
+  endpoint: "https://geonet.shodan.io/api/geodns/yahoo.com"
+  description: "DNS Lookup from Multiple Locations"
+  request_type: "GET"
+
+ping:
+  endpoint: "https://geonet.shodan.io/api/geoping/yahoo.com"
+  description: "Ping from Multiple Locations"
+  request_type: "GET"
+
+# Documentation URLs are referenced for external documentation and are not configurable

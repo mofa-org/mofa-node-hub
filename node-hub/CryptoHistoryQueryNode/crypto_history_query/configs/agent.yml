@@ -1,0 +1,17 @@
+# crypto_history_query.yml
+# Configuration file for CryptoHistoryQueryNode
+# All values below are non-sensitive and can be safely committed.
+
+coingecko:
+  # Base URL for CoinGecko API queries
+  base_url: "https://api.coingecko.com/api/v3"
+
+  # Default search settings
+  default_search_query: "bitcoin"
+  # Default date for price history (format: DD-MM-YYYY)
+  default_history_date: "13-05-2024"
+
+# Request parameters used in the endpoints
+parameters:
+  query: ''        # Default: empty, override as needed
+  date: ''         # Default: empty, override as needed

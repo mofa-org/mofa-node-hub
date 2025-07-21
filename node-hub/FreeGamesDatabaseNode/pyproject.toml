@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "FreeGamesDatabaseNode"
+version = "0.1.0"
+description = "Auto-generated agent package"
+authors = [
+    "Mofa Bot <mofa-bot@moxin.com>",
+    "Technical Owner <eng@moxin.com>"
+]
+packages = [{ include = "free_games_database" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pyarrow = ">= 5.0.0"
+requests = "*"
+
+[tool.poetry.scripts]
+FreeGamesDatabaseNode = "free_games_database.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

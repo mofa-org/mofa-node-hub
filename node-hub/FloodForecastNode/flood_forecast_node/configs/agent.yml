@@ -1,0 +1,16 @@
+# flood_forecast_node/config.yml
+# Configuration for FloodForecastNode
+
+api:
+  # Open-Meteo Flood API endpoint
+  endpoint: "https://flood-api.open-meteo.com/v1/flood"
+  default_latitude: 59.91
+  default_longitude: 10.75
+  # Daily parameter to request, adjust as needed
+  daily: "river_discharge"
+
+# You can adjust these parameters to suit your use case
+request:
+  timeout: 30  # request timeout in seconds
+
+# No sensitive information is present in the provided code.

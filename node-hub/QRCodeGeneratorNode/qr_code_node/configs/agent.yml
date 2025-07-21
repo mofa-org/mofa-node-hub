@@ -1,0 +1,13 @@
+# qr_code_node_config.yml
+# Configuration for QRCodeGeneratorNode
+# Adjust defaults as needed per environment
+
+endpoint: "https://api.apgy.in/qr/"  # API base endpoint
+request_type: "GET"                  # HTTP request method
+request_parameter:
+  - data       # Data to encode (string to be provided at runtime)
+  - size       # Size (dimensions in pixels, set via runtime/params)
+documentation_url: "https://api.apgy.in/qr/documentation.html?ref=freepublicapis.com" # Reference documentation
+error_handling:
+  retry_attempts: 2       # Number of automatic retries on failure
+  timeout_seconds: 10     # Timeout for requests

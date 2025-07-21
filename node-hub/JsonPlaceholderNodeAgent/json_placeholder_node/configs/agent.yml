@@ -1,0 +1,6 @@
+# json_placeholder_node_config.yml
+# Configuration for JsonPlaceholderNodeAgent
+
+api:
+  base_url: "https://jsonplaceholder.typicode.com"  # Base URL for JSONPlaceholder API
+  timeout: 30  # Request timeout in seconds

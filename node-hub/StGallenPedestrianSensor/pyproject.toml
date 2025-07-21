@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "StGallenPedestrianSensor"
+version = "0.1.0"
+description = "Auto-generated agent package"
+authors = [
+    "Mofa Bot <mofa-bot@moxin.com>",
+    "Technical Owner <eng@moxin.com>"
+]
+packages = [{ include = "stgallen_pedestrian_sensor" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pyarrow = ">= 5.0.0"
+requests = "*"
+
+[tool.poetry.scripts]
+StGallenPedestrianSensor = "stgallen_pedestrian_sensor.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,12 @@
+# imdb_spiderman_api_config.yml
+# Configuration for IMDBSpiderManApiNode
+
+api:
+  # The base URL for the Spider-Man IMDB API
+  endpoint: "https://imdb.iamidiotareyoutoo.com/search"
+  default_query: "Spiderman"
+  request_type: "GET"
+  # Optionally set request timeout (in seconds)
+  timeout: 10
+  # The documentation URL for API reference
+  documentation_url: "https://imdb.iamidiotareyoutoo.com/search?q=Spiderman?ref=freepublicapis.com"

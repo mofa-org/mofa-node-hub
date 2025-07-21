@@ -1,0 +1,8 @@
+# Configuration file for ElevationCoordinateNode
+# Generated for module: elevation_coordinate_node
+
+# Endpoint for the elevation API
+elevation_api:
+  endpoint: "https://api.opentopodata.org/v1/srtm90m"
+  interpolation: "cubic"    # Default interpolation method
+  timeout: 30                # API request timeout in seconds

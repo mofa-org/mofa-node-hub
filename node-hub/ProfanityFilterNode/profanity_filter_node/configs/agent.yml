@@ -1,0 +1,15 @@
+# profanity_filter_node_config.yml
+# YAML configuration for ProfanityFilterNode
+# All parameters are non-sensitive and can be adjusted as needed
+
+endpoints:
+  - url: "https://www.purgomalum.com/service/json"
+    description: "Removes or censors profanity from text."
+    documentation: "https://www.purgomalum.com/?ref=freepublicapis.com"
+    default_texts:
+      - "I love cats and dogs"
+      - "I love titties and dogs"
+    method: "GET"
+    request_parameter_name: "text"
+    # error: Set to true if you want error simulation for testing
+    error: false

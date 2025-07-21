@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "CurrentYearRetrieverNode"
+version = "0.1.0"
+description = "Auto-generated agent package"
+authors = [
+    "Mofa Bot <mofa-bot@moxin.com>",
+    "Technical Owner <eng@moxin.com>"
+]
+packages = [{ include = "current_year_node" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pyarrow = ">= 5.0.0"
+requests = "*" # Detected: GET HTTP call
+
+[tool.poetry.scripts]
+CurrentYearRetrieverNode = "current_year_node.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

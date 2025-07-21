@@ -1,0 +1,12 @@
+# Configuration file for IceAndFireDataNode
+# This YAML config contains non-sensitive operational parameters for your node.
+
+ice_and_fire_node:
+  character_endpoint: "https://anapioficeandfire.com/api/characters/581"
+  house_endpoint: "https://anapioficeandfire.com/api/houses/378"
+  documentation_url: "https://anapioficeandfire.com/"
+  default_request_type: "GET"
+  timeout: 30  # seconds, reasonable default for API requests
+  retries: 3   # Number of retry attempts for failed requests
+
+# Add further configuration as your node evolves.

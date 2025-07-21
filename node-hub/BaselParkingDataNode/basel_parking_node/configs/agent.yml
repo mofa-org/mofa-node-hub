@@ -1,0 +1,10 @@
+# BaselParkingDataNode Configuration
+# This YAML file contains non-sensitive operational parameters for the node
+
+basel_parking_node:
+  endpoint: "https://data.bs.ch/api/explore/v2.1/catalog/datasets/100088/records"
+  request_type: "GET"
+  request_parameter: "limit=20"
+  documentation_url: "https://data.bs.ch/explore/dataset/100088/information/?disjunctive.title&sort=published"
+  description: "Provides minute-by-minute occupancy data for public parking garages in Basel, Switzerland, sourced from the RSS feed of the Basel parking guidance system."
+  error: false

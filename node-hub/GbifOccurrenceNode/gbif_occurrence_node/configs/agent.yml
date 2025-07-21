@@ -1,0 +1,8 @@
+# gbif_occurrence_node_config.yml
+# Configuration file for GbifOccurrenceNode
+
+endpoint: "https://api.gbif.org/v1/occurrence/search?year=1800,1899"  # GBIF occurrence API endpoint
+description: "Search for Occurrence between 1800 and 1899"  # Description for this node
+documentation_url: "https://techdocs.gbif.org/en/openapi/?ref=freepublicapis.com"  # Official docs
+request_type: "GET"  # HTTP method
+request_parameter: "year=1800,1899"  # Parameter for year range

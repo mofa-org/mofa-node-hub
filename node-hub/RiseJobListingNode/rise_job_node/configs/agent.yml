@@ -1,0 +1,10 @@
+# Configuration file for RiseJobListingNode
+# These are non-sensitive default settings for the Job Listing Node
+joblisting:
+  endpoint: "https://api.joinrise.io/api/v1/jobs/public"
+  default_params:
+    page: 1         # Default page number
+    limit: 20       # Default jobs per request
+    sort: "desc"    # Default sort order
+    sortedBy: "createdAt"
+    jobLoc: ""      # Default location filter (empty = all locations)

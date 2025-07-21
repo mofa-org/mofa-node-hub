@@ -1,0 +1,8 @@
+# Configuration for SatelliteTLETrackerNode
+tle_api:
+  # API endpoint for fetching TLE data; change if using a different API provider
+  endpoint: "https://tle.ivanstanojevic.me/api/tle/25544"
+  # Timeout for API calls in seconds (reasonable default)
+  timeout: 10
+  # Description is provided for documentation and debugging purposes only
+  description: "API for real-time ISS TLE data"

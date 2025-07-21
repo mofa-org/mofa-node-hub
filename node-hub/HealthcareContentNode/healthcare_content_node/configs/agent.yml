@@ -1,0 +1,13 @@
+# healthcare_content_node/config.yml
+
+# API endpoint configuration for Healthcare Content Node
+endpoint: "https://www.healthcare.gov/api/index.json"
+
+description: "The HealthCare.gov Content API provides access to healthcare marketplace educational content in JSON."
+
+documentation_url: "https://www.healthcare.gov/developers/"
+
+request_type: GET
+request_parameter: None
+
+# You can override these defaults as needed for your application.

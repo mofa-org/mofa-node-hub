@@ -1,0 +1,8 @@
+# china_holiday_info/config.yml
+# Configuration file for ChinaHolidayInfoFetcher agent
+
+# API endpoint for fetching 2024 public holidays in China
+holiday_api:
+  endpoint: "https://api.jiejiariapi.com/v1/holidays/2024" # Official API endpoint (modify if using a proxy or alternate API)
+  timeout: 30 # default request timeout in seconds
+  retries: 3 # default number of retries for failed requests

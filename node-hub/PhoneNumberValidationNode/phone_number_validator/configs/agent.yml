@@ -1,0 +1,7 @@
+# phone_number_validator.yml - Configuration for PhoneNumberValidationNode
+# Non-sensitive operational parameters for phone number validation node
+numlookup:
+  endpoint: https://api.numlookupapi.com/v1/validate/
+  country_code: BD # You can change this default country code as needed
+  request_type: GET # Set to GET for validation requests
+  timeout: 30 # Default timeout in seconds

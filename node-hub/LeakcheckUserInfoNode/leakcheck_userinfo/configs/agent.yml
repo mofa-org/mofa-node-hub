@@ -1,0 +1,6 @@
+# Configuration for LeakcheckUserInfoNode (leakcheck_userinfo)
+#
+# As per the given code, no sensitive keys (API key, secret, token, etc.) or regular settings (config, param, etc.) are found.
+# The API endpoint is hardcoded, requires only a public 'email' parameter in the query, and no authentication is mentioned.
+#
+# No configuration required at this time.

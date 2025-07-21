@@ -1,0 +1,13 @@
+# config.yml for CrisisCoreMateriaNode
+# Regular configuration (non-sensitive)
+endpoints:
+  materia: "https://crisis-core-materia-fusion-api-546461677134.us-central1.run.app/materia"
+  status: "https://crisis-core-materia-fusion-api-546461677134.us-central1.run.app/status"
+  fusion: "https://crisis-core-materia-fusion-api-546461677134.us-central1.run.app/fusion"
+
+# Request parameters (if needed for fusion)
+fusion_request:
+  # Replace these with keys and values as required by fusion endpoint
+  key: "value"
+
+timeout: 30  # Example default timeout (seconds)

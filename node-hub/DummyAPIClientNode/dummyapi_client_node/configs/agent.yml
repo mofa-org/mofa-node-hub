@@ -1,0 +1,6 @@
+# config.yml for DummyAPIClientNode
+# Non-sensitive configurations for node operation
+
+endpoint: https://dummyapi.online/api/products
+request_type: GET
+# No request parameters, so no api_param block

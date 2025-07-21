@@ -1,0 +1,7 @@
+# yande_api_v2_node/config.yml
+# Configuration for YandeAPIV2Node agent
+
+post_endpoint: "https://yande.re/post.json?api_version=2"  # API endpoint for YandeRe v2
+request_type: "GET"  # HTTP request method
+error_mode: false  # Error mode toggle
+# No sensitive information detected; add API keys here if future endpoints require authentication

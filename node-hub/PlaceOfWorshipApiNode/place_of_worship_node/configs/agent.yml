@@ -1,0 +1,10 @@
+# place_of_worship_node_config.yml
+# Configuration for the PlaceOfWorshipApiNode module
+# These parameters are for operational/non-sensitive configuration only.
+
+api_settings:
+  base_url: "https://www.opensanctum.com/v1"  # Base API URL
+  timeout: 30                       # HTTP request timeout in seconds
+  max_retries: 3                    # Number of times to retry failed requests
+
+# No sensitive or secret parameters detected in provided code.

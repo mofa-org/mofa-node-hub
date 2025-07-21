@@ -1,0 +1,11 @@
+# ai_cat_gallery_config.yml
+# Configuration for AICatGalleryNode
+
+# API endpoint configurations for ai-cats.net
+api:
+  base_url: "https://api.ai-cats.net/v1/cat"
+  timeout: 10  # Request timeout in seconds
+  default_limit: 5  # Default search limit
+  default_size: 1024  # Default image size
+  default_theme: "All"
+  default_descending: false

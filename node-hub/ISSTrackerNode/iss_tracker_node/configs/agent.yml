@@ -1,0 +1,9 @@
+# iss_tracker_node.yml
+# Default configuration for ISSTrackerNode
+# Provides API endpoint for ISS location tracking
+
+api:
+  endpoint: "http://api.open-notify.org/iss-now.json"  # Public API endpoint (no authentication required)
+  request_type: "GET"
+  request_parameter: null
+  timeout_seconds: 10  # Reasonable timeout default

@@ -1,0 +1,17 @@
+# adresse_api_node.yml
+# Configuration for AdresseApiNode
+# Provides endpoint settings and default parameters for API calls
+
+adresse_api:
+  base_url: "https://api-adresse.data.gouv.fr"
+  endpoints:
+    reverse:
+      path: "/reverse/"
+      default_params:
+        lon: 2.37
+        lat: 48.357
+    search:
+      path: "/search/"
+      default_params:
+        q: "8 bd du port"
+  timeout: 10  # seconds: reasonable default

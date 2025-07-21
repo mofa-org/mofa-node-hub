@@ -1,0 +1,14 @@
+# tarot_card_api.yml
+# YAML configuration for TarotCardAPINode
+# Contains non-sensitive operational parameters.
+
+api:
+  base_url: "https://tarotapi.dev/api/v1"
+  timeout: 30               # Default request timeout in seconds
+  retries: 3                # Number of retries for failed requests
+  user_agent: "TarotCardAPINode/1.0"
+
+endpoints:
+  all_cards: "/cards"
+  random_card: "/cards/random"
+  court_cards: "/cards/courts"

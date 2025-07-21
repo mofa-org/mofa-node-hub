@@ -1,0 +1,14 @@
+# config.yml for WaterQualityArchiveNode
+# Regular/operational configuration options for the node.
+
+api:
+  # API endpoint for retrieving water quality data
+  endpoint: "https://environment.data.gov.uk/water-quality/id/sampling-point.json"
+  # Default search query parameter
+  default_search: "clifton"
+  # HTTP method to use for requests
+  request_type: "GET"
+  # Description of this data node
+  description: "The Water Quality Archive provides comprehensive data on water quality measurements from various sampling points across England including coastal, river, lake, and groundwater sources."
+  # Documentation URL for API reference
+  documentation_url: "https://environment.data.gov.uk/water-quality/view/landing?ref=freepublicapis.com"

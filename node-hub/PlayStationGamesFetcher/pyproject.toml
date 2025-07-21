@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "PlayStationGamesFetcher"
+version = "0.1.0"
+description = "Auto-generated agent package"
+authors = [
+    "Mofa Bot <mofa-bot@moxin.com>",
+    "Technical Owner <eng@moxin.com>"
+]
+packages = [{ include = "playstation_games_fetcher" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pyarrow = ">= 5.0.0"
+# ⟨⟨auto⟩⟩ Detected from code patterns:
+# requests.get → requests = "*"
+requests = "*"
+
+[tool.poetry.scripts]
+PlayStationGamesFetcher = "playstation_games_fetcher.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

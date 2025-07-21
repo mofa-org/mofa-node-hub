@@ -1,0 +1,9 @@
+# deck_of_cards_node_config.yml
+# Configuration file for DeckOfCardsNode
+# Deck of Cards API config
+
+api:
+  base_url: "https://www.deckofcardsapi.com/api"
+  deck_id: "1xou3n64udg9"      # Reasonable default example deck id
+  deck_count: 1                 # Default number of decks to use
+  draw_count: 2                 # Default number of cards to draw

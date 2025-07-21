@@ -1,0 +1,9 @@
+# chatgpt_api_node_config.yml
+# Configuration for ChatGPTApiNode
+# Regular, non-sensitive operational parameters
+
+api_endpoint: "https://api.apitools.workers.dev/api/ai/chatgpt4"  # API endpoint URL
+description: "ChatGPT 4 Endpoint"                                   # Description of the endpoint
+documentation_url: "https://api.apitools.workers.dev/?ref=freepublicapis.com"  # Link to API documentation
+request_type: "GET"                                               # HTTP request method
+# request_parameter can be added as needed by consumers

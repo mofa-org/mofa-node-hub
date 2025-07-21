@@ -1,0 +1,23 @@
+# Configuration file for nextbike_data_node
+# Regular, non-sensitive configuration parameters for the NextbikeDataNode agent
+
+api:
+  # The base endpoint for Nextbike API (do not remove or modify base path)
+  base_url: "https://api.nextbike.net/maps/nextbike-live.json"
+
+defaults:
+  # Default city ID. Can be adjusted as needed.
+  city: 1
+  # Default coordinates for region-based queries
+  lat: 51.34049
+  lng: 12.36890
+  # Brand/domain for filtering
+  domains: "kg"
+
+request:
+  # Default request type for API interactions
+  type: GET
+  # Request timeout in seconds
+  timeout: 10
+
+# No sensitive configuration detected. No .env file required.

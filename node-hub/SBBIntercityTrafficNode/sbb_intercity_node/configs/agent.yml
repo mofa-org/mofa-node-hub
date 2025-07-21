@@ -1,0 +1,34 @@
+# sbb_intercity_node.yml
+# Configuration for SBB Intercity Traffic Node data sources and requests
+
+nodes:
+  - name: departures
+    endpoint: "https://data.sbb.ch/api/explore/v2.1/catalog/datasets/ist-daten-sbb/records"
+    params:
+      limit: 20
+      refine: 'verkehrsmittel_text:"IC"'
+    description: "SBB – Abfahrten: Provides departure data from the Swiss Federal Railways (SBB) for the previous day."
+    request_type: GET
+    documentation_url: "https://data.sbb.ch/explore/dataset/ist-daten-sbb/api/?flg=de-ch?ref=freepublicapis.com"
+
+  - name: cancellations
+    endpoint: "https://data.sbb.ch/api/explore/v2.1/catalog/datasets/ist-daten-sbb/records"
+    params:
+      limit: 20
+      refine_1: 'verkehrsmittel_text:"IC"'
+      refine_2: 'faellt_aus_tf:"true"'
+    description: "SBB – Ausfälle: Provides cancellation data from the Swiss Federal Railways (SBB) for the previous day."
+    request_type: GET
+    documentation_url: "https://data.sbb.ch/explore/dataset/ist-daten-sbb/api/?flg=de-ch?ref=freepublicapis.com"
+
+  - name: delays
+    endpoint: "https://data.sbb.ch/api/explore/v2.1/catalog/datasets/ist-daten-sbb/records"
+    params:
+      limit: 20
+      refine_1: 'verkehrsmittel_text:"IC"'
+      refine_2: 'ankunftsverspatung:"true"'
+    description: "SBB – Verspätungen: Provides delay data from the Swiss Federal Railways (SBB) for the previous day."
+    request_type: GET
+    documentation_url: "https://data.sbb.ch/explore/dataset/ist-daten-sbb/api/?flg=de-ch?ref=freepublicapis.com"
+
+# No sensitive information detected; all endpoints are public and require no authentication.

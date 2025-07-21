@@ -1,0 +1,10 @@
+# config.yml for ColorApiNodeConnector
+
+# No sensitive info detected. Only regular configuration is created.
+# You may add API base_url, timeouts, and other operational params here if needed.
+color_api:
+  base_url: "https://www.thecolorapi.com"
+  timeout: 10  # seconds, reasonable default
+  enable_logging: true  # Feature toggle, recommended
+
+# Endpoints are static (hardcoded per input); parameters provided inline per function.

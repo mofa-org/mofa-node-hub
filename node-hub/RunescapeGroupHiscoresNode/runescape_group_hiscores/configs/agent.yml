@@ -1,0 +1,13 @@
+# Configuration file for runescape_group_hiscores module
+# RunescapeGroupHiscoresNode agent
+
+api:
+  # API endpoint for group hiscores retrieval
+  endpoint: "https://secure.runescape.com/m=group_hiscores/v1//groups"
+
+  # Default request parameters for group hiscores API
+  default_params:
+    groupSize: 2        # Number of players in a group
+    size: 1             # Size count parameter for the request
+    bossId: 1           # Boss ID to query
+    page: 0             # Page number (for pagination)

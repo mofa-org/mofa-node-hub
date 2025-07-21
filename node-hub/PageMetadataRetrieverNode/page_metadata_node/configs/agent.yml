@@ -1,0 +1,9 @@
+# page_metadata_node_config.yml
+# Configuration for PageMetadataRetrieverNode
+
+microlink_endpoint: "https://api.microlink.io/"   # API base endpoint
+metadata_source_url: "https://freepublicapis.com"   # Default source URL for metadata retrieval
+request_type: GET                                    # HTTP request method
+request_parameter: url                               # Query parameter name for URL
+
+# No sensitive information required for this node

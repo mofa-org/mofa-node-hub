@@ -1,0 +1,13 @@
+# covid_trends_node/config.yml
+# Configuration for Covid19TrendsNode, providing defaults and structure
+
+api:
+  endpoint: "https://disease.sh/v3/covid-19/historical/all"
+  request:
+    lastdays: "all"          # Number of days to fetch ("all" or an integer)
+    type: "GET"              # Request type
+    parameter: "lastdays=all" # API-specific query parameter
+    description: >
+      This API provides comprehensive data on COVID-19 cases, deaths, and recoveries
+      across various dates, offering access to historical trends and real-time statistics.
+    documentation_url: "https://disease.sh/v3/covid-19/historical/all?lastdays=all?ref=freepublicapis.com"

@@ -1,0 +1,10 @@
+# config.yml for blutv_auth_node
+# Non-sensitive configuration settings
+blutv_auth_node:
+  endpoints:
+    - "https://www.blutv.com/int/giris"
+  request_type: "GET"
+  description: "BluTV authentication node endpoints for login and Cfr."
+  documentation:
+    - "https://www.blutv.com/int/giris?ref=freepublicapis.com"
+  require_authentication: false  # Set true if future updates require API keys or login

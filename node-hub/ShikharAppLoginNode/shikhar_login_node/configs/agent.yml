@@ -1,0 +1,11 @@
+# shikhar_login_node/config.yml
+# Auto-generated configuration for ShikharAppLoginNode node
+
+login_api:
+  endpoint: "https://shikhar.hulcd.com/login"  # The login API endpoint
+  request_type: "GET"  # HTTP method to use for login
+  # No specific request parameters specified
+  timeout: 30  # Default timeout in seconds (adjust as needed)
+  retries: 3   # Number of retry attempts for failed requests
+  description: "API for Shikhar App login and user verification."
+  documentation_url: "https://shikhar.hulcd.com/login?ref=freepublicapis.com"

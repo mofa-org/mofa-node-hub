@@ -1,0 +1,6 @@
+# random_rejection_node_config.yml
+# Configuration file for RandomRejectionNode
+# No sensitive keys required for this endpoint (public API, no authentication)
+endpoint: "https://naas.isalman.dev/no"
+description: "No-as-a-Service (NaaS) API configuration"
+timeout: 5  # Default timeout in seconds for the GET request

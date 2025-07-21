@@ -1,0 +1,17 @@
+# stgallen_names_node/config.yml
+# Configuration for StGallenNewbornNamesNode
+# Contains API endpoints and settings for querying St. Gallen newborn names
+
+endpoints:
+  - endpoint: "https://daten.sg.ch/api/explore/v2.1/catalog/datasets/vornamen-der-neugeborenen-kanton-stgallen-seit-1987/records?where=year%20%3E%3D%20%271991-01-01%27%20AND%20year%20%3C%3D%20%271991-12-31%27%20AND%20geschlecht%20%3D1&limit=20"
+    description: "Häufigkeit der männlichen Vornamen des Jahres 1991"
+    documentation_url: "https://daten.sg.ch/explore/dataset/vornamen-der-neugeborenen-kanton-stgallen-seit-1987/api/?disjunctive.geschlecht&disjunctive.geschlecht_label&disjunctive.vorname?ref=freepublicapis.com"
+    request_type: "GET"
+    request_parameter: "year >= '1991-01-01' AND year <= '1991-12-31' AND geschlecht = 1"
+    error: false
+  - endpoint: "https://daten.sg.ch/api/explore/v2.1/catalog/datasets/vornamen-der-neugeborenen-kanton-stgallen-seit-1987/records?where=year%20%3E%3D%20%271992-01-01%27%20AND%20year%20%3C%3D%20%271992-12-31%27%20AND%20geschlecht%20%3D2&limit=20"
+    description: "Häufigkeit der weiblichen Vornamen des Jahres 1992"
+    documentation_url: "https://daten.sg.ch/explore/dataset/vornamen-der-neugeborenen-kanton-stgallen-seit-1987/api/?disjunctive.geschlecht&disjunctive.geschlecht_label&disjunctive.vorname?ref=freepublicapis.com"
+    request_type: "GET"
+    request_parameter: "year >= '1992-01-01' AND year <= '1992-12-31' AND geschlecht = 2"
+    error: false

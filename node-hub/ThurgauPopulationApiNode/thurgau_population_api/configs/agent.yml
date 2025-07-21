@@ -1,0 +1,8 @@
+# thurgau_population_api_config.yml
+# Configuration for ThurgauPopulationApiNode
+endpoint: "https://data.tg.ch/api/explore/v2.1/catalog/datasets/sk-stat-56/records"
+description: "API providing data on the permanent population of the Thurgau canton since 2007. Includes information on residents with main residence in Thurgau and specific considerations for foreign population."
+documentation_url: "https://data.tg.ch/explore/dataset/sk-stat-56/information/?ref=freepublicapis.com"
+request_type: "GET"
+request_parameter: "limit=100"
+error: false

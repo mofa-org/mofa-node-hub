@@ -1,0 +1,8 @@
+# emoji_api_node_config.yml
+# Configuration for EmojiApiNode
+
+api:
+  # Base URL for all EmojiHub API requests
+  base_url: "https://emojihub.yurace.pro/api"
+  # Default timeout for API requests (in seconds)
+  timeout: 10  # reasonable default

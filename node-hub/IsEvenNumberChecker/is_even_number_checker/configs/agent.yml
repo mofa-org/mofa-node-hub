@@ -1,0 +1,10 @@
+# is_even_number_checker_config.yml
+# Configuration for IsEvenNumberChecker agent
+
+api:
+  endpoint: "https://api.isevenapi.xyz/api/iseven/"
+  # The URL to use for checking even/odd parity
+  timeout: 10  # seconds (reasonable default for API calls)
+
+settings:
+  enable_logging: true # Toggle verbose logging

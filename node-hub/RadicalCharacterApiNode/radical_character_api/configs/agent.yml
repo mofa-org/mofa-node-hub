@@ -1,0 +1,11 @@
+# radical_character_api/config.yml
+# Configuration for RadicalCharacterApiNode agent
+
+api:
+  # Base endpoint for radical character information
+  endpoint: "http://ccdb.hemiola.com/characters/radicals/85"
+  # Request type for the API (default: GET)
+  request_type: "GET"
+  # Documentation URL for reference
+  documentation_url: "http://ccdb.hemiola.com/?ref=freepublicapis.com"
+# No sensitive keys or secrets detected; no .env required.

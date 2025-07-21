@@ -1,0 +1,15 @@
+# OpenSkyFlightDataNode Configuration
+# Stores configurable API and node parameters.
+
+api:
+  # Base endpoints available for Opensky API
+  endpoints:
+    - https://opensky-network.org/api/states/all?lamin=45.8389&lomin=5.9962&lamax=47.8229&lomax=10.5226   # Switzerland Airplane Search
+    - https://opensky-network.org/api/flights/arrival?airport=EDDF&begin=1517227200&end=1517230800        # Frankfurt Arrivals
+    - https://opensky-network.org/api/states/all                                                      # All States
+  timeout: 30            # Default timeout for API requests in seconds
+
+features:
+  enable_logging: true   # Toggle HTTP request logging
+
+# No sensitive information required; no .env file needed.

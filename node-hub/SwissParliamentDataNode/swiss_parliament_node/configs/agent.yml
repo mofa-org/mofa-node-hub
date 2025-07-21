@@ -1,0 +1,17 @@
+# swiss_parliament_node/config.yml
+# Default configuration for SwissParliamentDataNode
+# No sensitive information required
+
+endpoints:
+  sessions:
+    url: "https://ws-old.parlament.ch/sessions?lang=en&format=json"
+    description: "Parliament Sessions"
+  councillors:
+    url: "https://ws-old.parlament.ch/councillors/basicdetails?lang=en&format=json"
+    description: "List of Councillors"
+  votes:
+    url: "https://ws-old.parlament.ch/votes/councillors?lang=en&format=json"
+    description: "Votes by Councillor"
+
+timeout: 10  # in seconds, reasonable default
+# No API keys or sensitive credentials required for these endpoints

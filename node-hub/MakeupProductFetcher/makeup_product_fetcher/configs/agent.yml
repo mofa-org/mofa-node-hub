@@ -1,0 +1,17 @@
+# makeup_product_fetcher/config.yml
+# Regular, non-sensitive configuration for MakeupProductFetcher agent
+
+# API endpoints to query makeup products
+products:
+  - endpoint: "http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline"
+    description: "Get Makeup from Maybelline"
+    documentation_url: "http://makeup-api.herokuapp.com/?ref=freepublicapis.com"
+    request_type: "GET"
+    request_parameter: "brand=maybelline"
+    error: false
+  - endpoint: "http://makeup-api.herokuapp.com/api/v1/products.json?brand=covergirl&product_type=lipstick"
+    description: "Get Lipsticks from Covergirl"
+    documentation_url: "http://makeup-api.herokuapp.com/?ref=freepublicapis.com"
+    request_type: "GET"
+    request_parameter: "brand=covergirl&product_type=lipstick"
+    error: false

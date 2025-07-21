@@ -1,0 +1,14 @@
+# FormulaOneCarDataNode Configuration
+# Default non-sensitive settings for Formula One Car Data Node
+
+openf1_api:
+  base_url: https://api.openf1.org/v1  # Base OpenF1 API URL
+  endpoints:
+    drivers: /drivers  # Path for drivers endpoint
+    car_data: /car_data  # Path for car data endpoint
+  default_driver_number: 1  # Default driver number parameter
+  default_session_key: 9158  # Default session key for demonstration
+  default_speed: 315  # Only for car_data queries, adjustable parameter
+  sample_rate_hz: 3.7  # Sample rate provided by OpenF1 API
+
+# No sensitive or secret keys detected, all parameters are non-sensitive.

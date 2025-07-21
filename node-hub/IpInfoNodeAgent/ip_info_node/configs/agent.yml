@@ -1,0 +1,9 @@
+# ip_info_node_config.yml
+# Configuration for IpInfoNodeAgent
+# No sensitive information detected. All settings are public and informational endpoints.
+
+ipinfo:
+  endpoint: "https://ipinfo.io/json"  # API endpoint
+  request_type: GET                  # HTTP request type
+  documentation_url: "https://ipinfo.io/developers?ref=freepublicapis.com" # API docs
+  enable_error_check: false          # Error flag

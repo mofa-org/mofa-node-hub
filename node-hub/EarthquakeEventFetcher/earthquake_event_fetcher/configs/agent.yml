@@ -1,0 +1,13 @@
+# Configuration for EarthquakeEventFetcher
+# Place this in earthquake_event_fetcher/config.yml
+
+# API endpoint for fetching earthquake data
+api_endpoint: "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson"
+
+# Default parameters for earthquakes queries
+query_defaults:
+  starttime: "2023-03-01"  # set dynamically in production
+  endtime: "2023-03-02"    # set dynamically in production
+  minmagnitude: 5
+
+# Add more configuration options below as your application evolves

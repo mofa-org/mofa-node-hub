@@ -1,0 +1,10 @@
+# logo_provider_node_config.yml
+# Configuration file for LogoProviderNode agent
+
+api:
+  # Base endpoint for fetching all logos
+  all_logos_url: "https://logotypes.dev/all"
+  # Endpoint for fetching random logos
+  random_logo_url: "https://logotypes.dev/random/data"
+  # Timeout for API requests (seconds)
+  timeout: 10

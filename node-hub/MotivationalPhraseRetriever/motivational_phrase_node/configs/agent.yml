@@ -1,0 +1,9 @@
+# motivational_phrase_node configuration for MotivationalPhraseRetriever
+# No sensitive keys detected, only regular endpoint configuration
+
+motivational_phrase_node:
+  endpoint: "https://gomezmig03.github.io/MotivationalAPI/en.json"  # API endpoint for motivational phrases
+  request_type: "GET"  # HTTP request type
+  description: "Collection of catholic and secular motivational phrases for user motivation."
+  documentation_url: "https://github.com/GomezMig03/MotivationalAPI"
+  # No authentication or sensitive data required

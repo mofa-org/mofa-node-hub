@@ -1,0 +1,17 @@
+# config.yml for MagicEightBallNode
+# No sensitive environment variables detected: no API keys, secrets, or tokens needed
+# The only configurations are the API endpoints and optional descriptions
+
+magic_eightball_node:
+  endpoints:
+    random:
+      url: "https://eightballapi.com/api"
+      description: "Returns a random Magic 8 Ball response."
+      method: GET
+      documentation_url: "https://www.eightballapi.com/docs?ref=freepublicapis.com"
+    biased:
+      url: "https://eightballapi.com/api/biased"
+      description: "Returns a biased Magic 8 Ball response based on the sentiment of your question."
+      method: POST
+      request_parameter: "Copy JSON Key| Value"
+      documentation_url: "https://www.eightballapi.com/docs?ref=freepublicapis.com"

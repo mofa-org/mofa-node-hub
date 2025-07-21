@@ -1,0 +1,7 @@
+# avatar_api_node/config.yml
+# Avatar API Node configuration
+episodes_endpoint: "https://api.sampleapis.com/avatar/episodes"
+characters_endpoint: "https://api.sampleapis.com/avatar/characters"
+info_endpoint: "https://api.sampleapis.com/avatar/info"
+# No parameters needed for requests in current node
+request_type: "GET"

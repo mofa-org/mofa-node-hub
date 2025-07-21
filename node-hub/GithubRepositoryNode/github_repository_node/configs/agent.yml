@@ -1,0 +1,19 @@
+# github_repository_node.yml
+# Configuration for GithubRepositoryNode
+# Non-sensitive service parameters
+
+api:
+  # Default API base URL for Ironoc public API
+  base_url: "https://ironoc.net/api/"
+  # Documentation for API endpoints
+  documentation_url: "https://ironoc.net/swagger-ui/index.html?ref=freepublicapis.com"
+  # Timeout in seconds for API requests
+  timeout: 30
+  # Additional headers (if required)
+  headers: {}
+
+defaults:
+  # Default GitHub username for demonstration or fallback
+  username: "conorheffron"
+  # Default repository for demonstration or fallback (used in issue search)
+  repository: "ironoc"

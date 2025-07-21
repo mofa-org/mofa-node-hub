@@ -1,0 +1,14 @@
+# Configuration for WeatherApiNodeConnector
+# These settings define the endpoints and parameters for the node
+
+weather_api:
+  # The list of API endpoints this node can use
+  endpoints:
+    - "https://goweather.herokuapp.com/weather/Curitiba"
+    - "https://goweather.herokuapp.com/weather/bern"
+  # The default request parameter required by the API
+  request_parameter: "city name"
+  # Expected request type (e.g., GET, POST)
+  request_type: "GET"
+  # Documentation reference
+  documentation_url: "https://github.com/robertoduessmann/weather-api?tab=readme-ov-file?ref=freepublicapis.com"

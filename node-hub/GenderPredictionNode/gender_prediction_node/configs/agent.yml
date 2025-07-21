@@ -1,0 +1,16 @@
+# Configuration for GenderPredictionNode
+gender_prediction_node:
+  # API endpoint for gender prediction
+  endpoint: "https://api.genderize.io"
+
+  # Default parameter for request
+  default_parameter: "name"
+
+  # Documentation URL for reference
+  documentation_url: "https://genderize.io/?ref=freepublicapis.com"
+
+  # Request type, usually GET for this API
+  request_type: GET
+
+  # Provide a default value or leave empty
+  default_name: ""

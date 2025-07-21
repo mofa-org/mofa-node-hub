@@ -1,0 +1,11 @@
+# buddha_quotes_node/config.yml
+# Configuration for BuddhaQuotesNode
+# All defaults are chosen for public, non-sensitive API usage.
+
+buddha_quotes_node:
+  # API endpoint for retrieving Buddhist quotes (public endpoint)
+  api_endpoint: "https://buddha-api.com/api/random"
+  # Request type for the API
+  request_type: "GET"
+  # Documentation for this API
+  documentation_url: "https://buddha-api.com/?ref=freepublicapis.com"

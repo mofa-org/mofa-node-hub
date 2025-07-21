@@ -1,0 +1,7 @@
+# reqres_api_node.yml
+# Normal configuration for ReqresApiNode agent
+
+endpoint: "https://reqres.in/api/users?page=1"  # API endpoint for Reqres test data
+request_type: "GET"  # HTTP method used
+# Optionally add request_parameter as needed
+request_parameter: ""  # Provide API parameter values here if necessary

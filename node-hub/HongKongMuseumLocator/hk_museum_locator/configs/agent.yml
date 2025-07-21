@@ -1,0 +1,9 @@
+# hk_museum_locator.yml
+# Regular configuration for HongKongMuseumLocator agent
+
+museum_api:
+  endpoint: "https://geodata.gov.hk/gs/api/v1.0.0/locationSearch"
+  request_type: "GET"
+  request_parameter: "q=museums"
+  description: "Search for Hongkong Museum Locations"
+  documentation_url: "https://portal.csdi.gov.hk/csdi-webpage/?ref=freepublicapis.com"

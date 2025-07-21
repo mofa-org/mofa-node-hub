@@ -1,0 +1,15 @@
+# uk_postcode_fetcher/config.yml
+# Configuration for the UKPostcodeFetcherNode agent
+
+fetch_random_postcode:
+  enabled: true  # Enables the fetching of a random postcode
+  endpoint: "https://api.postcodes.io/random/postcodes"
+
+fetch_specific_postcode:
+  enabled: true  # Enables the fetching of information for a specific postcode
+  # Default value set to OX49 5NU for demonstration; change as needed
+  postcode: "OX49 5NU"
+  endpoint: "https://api.postcodes.io/postcodes/OX49%205NU"
+
+timeout:
+  value: 10  # Timeout for requests in seconds

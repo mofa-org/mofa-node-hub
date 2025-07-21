@@ -1,0 +1,9 @@
+# glitch_logo_node.yml
+# Configuration for GlitchEffectLogoNode
+# No sensitive information detected
+
+endpoint: "https://abhi-api.vercel.app/api/logo/glitch"
+description: "Generate glitch effect text effect logo"
+documentation_url: "https://abhi-api.vercel.app/api/logo/glitch?text=?ref=freepublicapis.com"
+request_type: "GET"
+default_text: "Abhi Api"  # Default text for logo generation

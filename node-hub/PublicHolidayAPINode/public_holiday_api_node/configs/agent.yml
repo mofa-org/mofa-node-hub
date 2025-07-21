@@ -1,0 +1,11 @@
+# public_holiday_api_node_config.yml
+# Configuration for PublicHolidayAPINode
+# No sensitive data detected, only non-sensitive settings included
+
+public_holiday_api:
+  endpoint: "https://date.nager.at/api/v3/PublicHolidays/2024/CH"  # API endpoint
+  description: "An API for public holiday data. Supports over 100 countries. Provides information on holidays and long weekends."
+  documentation_url: "https://date.nager.at/Api?ref=freepublicapis.com"
+  request_type: "GET"
+  country: "CH"        # Default country (Switzerland)
+  year: 2024            # Default year

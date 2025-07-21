@@ -1,0 +1,16 @@
+# nordpool_electricity_node_config.yml
+# Configuration for NordPoolElectricityNode agent
+
+# API Endpoint for price range queries
+nps_endpoint: "https://dashboard.elering.ee/api/nps/price"
+
+# API Endpoint for current price query in Estonia
+nps_current_endpoint: "https://dashboard.elering.ee/api/nps/price/EE/current"
+
+# Default request parameters for range queries
+# You may override 'start' and 'end' in your code logic or external request
+request_params:
+  start: "2024-06-01T20:59:59.999Z"    # ISO8601 format
+  end:   "2024-06-30T20:59:59.999Z"    # ISO8601 format
+
+# No sensitive keys or tokens required for public API access

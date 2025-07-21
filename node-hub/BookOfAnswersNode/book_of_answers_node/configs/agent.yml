@@ -1,0 +1,8 @@
+# book_of_answers_node/config.yml
+# Default configuration for BookOfAnswersNode
+
+endpoint: "http://answerbook.david888.com/?lang=en"  # API endpoint for the Book of Answers
+request_type: GET  # HTTP request method
+request_parameter: null # No request parameters needed
+description: "The Book of Answers API provides a random piece of advice or wisdom with each request. It simulates the experience of consulting a traditional 'Book of Answers,' offering concise and thoughtful responses."
+documentation_url: "https://github.com/tbdavid2019/answerbook-api?ref=freepublicapis.com"

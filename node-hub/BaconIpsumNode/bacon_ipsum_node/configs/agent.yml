@@ -1,0 +1,11 @@
+# bacon_ipsum_node_config.yml
+# Configuration for BaconIpsumNode
+default_endpoint: "https://baconipsum.com/api/"
+request_types:
+  - GET
+parameters:
+  # Available types: meat-and-filler, all-meat
+  type: "meat-and-filler"
+documentation_url: "https://baconipsum.com/json-api/?ref=freepublicapis.com"
+
+# No sensitive information detected. All configuration is non-sensitive.

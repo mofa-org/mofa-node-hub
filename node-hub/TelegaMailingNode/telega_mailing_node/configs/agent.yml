@@ -1,0 +1,5 @@
+# telega_mailing_node_config.yml
+# Non-sensitive configuration for TelegaMailingNode
+request_timeout: 30   # Default timeout (in seconds) for API requests
+max_recipients_per_mailing: 1000   # API endpoint limit for mailing
+api_base_url: "https://app.telegasend.ru/api/v1"   # Base URL for TelegaSend API

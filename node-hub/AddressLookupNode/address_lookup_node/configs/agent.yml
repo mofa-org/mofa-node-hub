@@ -1,0 +1,11 @@
+# address_lookup_node/config.yml
+# Default configuration for AddressLookupNode
+
+address_lookup:
+  endpoint: "https://www.als.gov.hk/lookup"
+  request_type: "GET"
+  query_param: "q"
+  timeout: 10  # seconds
+  max_retry: 3
+  description: "The Address Lookup Service API provides a means for users to retrieve address records based on input address information."
+  documentation_url: "https://data.gov.hk/en-data/dataset/hk-dpo-als_01-als/resource/210c2cc9-1172-4529-a82b-f10107513e9c?ref=freepublicapis.com"

@@ -1,0 +1,9 @@
+# Configuration for Bangladesh NID API Node
+# This file includes non-sensitive default operational parameters for the node
+
+bangladesh_nid_node:
+  endpoint: "https://services.nidw.gov.bd/nid-pub/" # Public API endpoint for NID Application System
+  request_type: "GET" # HTTP request method used by this node
+  description: "The Bangladesh NID Application System API allows users to register for a national identity card, claim their accounts, and manage related services through a web-based platform. It provides functionalities for document uploads and information retrieval while ensuring user authentication and approval processes."
+  documentation_url: "https://services.nidw.gov.bd/nid-pub/?ref=freepublicapis.com"
+  request_parameter: "Not specified" # No specific parameters documented

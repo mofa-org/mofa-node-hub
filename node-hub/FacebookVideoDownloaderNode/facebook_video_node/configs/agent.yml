@@ -1,0 +1,11 @@
+# facebook_video_node/config.yml
+# Regular configuration settings for FacebookVideoDownloaderNode
+
+facebook_video_downloader:
+  endpoint: "https://fdown.hideme.eu.org/?url=https://www.facebook.com/share/v/y61dbe5fDsxQRkWM/?mibextid=oFDknk"
+  description: "Facebook Video Downloader Api by @devsmk on telegram"
+  documentation_url: "https://t.me/+NaATB64x9z4zNTZl?ref=freepublicapis.com"
+  request_type: "GET"
+  request_parameter: "url  # Provide the Facebook video URL here"
+  error: false
+# Add other operational parameters as needed

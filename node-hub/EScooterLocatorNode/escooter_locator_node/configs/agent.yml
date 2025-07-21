@@ -1,0 +1,16 @@
+# escooter_locator_node_config.yml
+# Configuration file for EScooterLocatorNode module
+# All parameters are non-sensitive
+
+request:
+  endpoint: "https://api.sharedmobility.ch/v1/sharedmobility/identify"
+  default_params:
+    filters: "ch.bfe.sharedmobility.vehicle_type=E-Scooter"
+    Geometry: "8.72334,47.50024"
+    Tolerance: 500
+    offset: 0
+    geometryFormat: "esrijson"
+  request_type: "GET"
+
+description: "Get all available E-Scooters within 500m of a specific point."
+documentation_url: "https://github.com/SFOE/sharedmobility/blob/main/Sharedmobility.ch-API.md?ref=freepublicapis.com"

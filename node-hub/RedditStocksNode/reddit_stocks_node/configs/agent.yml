@@ -1,0 +1,10 @@
+# reddit_stocks_node_config.yml
+# Configuration file for RedditStocksNode
+# This service does not require API keys or authentication
+
+endpoint: "https://tradestie.com/api/v1/apps/reddit"  # Public Reddit stocks API endpoint
+description: "Get top 50 stocks discussed on Reddit subreddit - Wallstreetbets"
+documentation_url: "https://tradestie.com/apps/reddit/api/?ref=freepublicapis.com"
+request_type: "GET"
+request_parameter: "None"
+error: false

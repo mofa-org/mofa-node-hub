@@ -1,0 +1,10 @@
+# Configuration for api2news_endpoint (Api2NewsEndpointNode)
+# All values set to sensible defaults; adjust as necessary.
+
+api2news_endpoint:
+  endpoint: "https://endpoint.api2.news/"  # API endpoint URL for API2NEWS
+  description: "The API2NEWS Endpoint provides access to the latest news stories from various sources, including BBC, TechCrunch, and CNN. Users can retrieve articles by making GET requests to specific endpoints for each publication, including filtering by query parameters for specific articles."
+  documentation_url: "https://documenter.getpostman.com/view/13902582/2sA3rxrZcC?ref=producthunt?ref=freepublicapis.com" # API documentation
+  request_type: "GET"  # HTTP method
+  request_parameter: null  # No request parameters specified
+  error: false   # Default error flag

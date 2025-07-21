@@ -1,0 +1,9 @@
+# leakcheck_api_node.yml
+# Non-sensitive node configuration for LeakcheckPublicAPINode
+endpoint: "https://leakcheck.net/api/public"
+description: "Search for Data Breaches"
+documentation_url: "https://wiki.leakcheck.io/en/api/public?ref=freepublicapis.com"
+request_type: "GET"
+request_parameter:
+  check: "example" # Example search parameter
+# No sensitive data or authentication keys detected

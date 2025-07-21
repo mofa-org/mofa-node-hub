@@ -1,0 +1,13 @@
+# diet_meeting_api_settings.yml
+# Configuration for DietMeetingApiNode
+# Regular (non-sensitive) parameters for API access and querying
+
+diet_meeting_api:
+  # Endpoint for the National Diet Library meeting record search API
+  endpoint: "https://kokkai.ndl.go.jp/api/meeting_list"
+  # Default meeting name to search for
+  name_of_meeting: "東日本大震災"
+  # Maximum records to retrieve per query
+  maximum_records: 100
+  # Format for API response
+  record_packing: "json"

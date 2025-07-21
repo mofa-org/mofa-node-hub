@@ -1,0 +1,11 @@
+# user_agent_detection/config.yml
+# Configuration file for UserAgentDetectionNode
+
+user_agent_api:
+  endpoint: "https://api.apicagent.com/"
+  # User-Agent string to use by default for detection requests
+  user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36"
+  # Default request type
+  request_type: "GET"
+  # Whether to treat errors as non-fatal (default false)
+  error: false

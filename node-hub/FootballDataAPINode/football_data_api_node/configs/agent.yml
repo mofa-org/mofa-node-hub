@@ -1,0 +1,6 @@
+# football_data_api_node.yml
+# Non-sensitive, operational configuration for FootballDataAPINode
+endpoint: https://api.football-data.org/v4/competitions/
+timeout: 30  # Default timeout in seconds
+request_type: GET
+# Additional settings can be added as needed

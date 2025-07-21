@@ -1,0 +1,8 @@
+# uspto_vehicle_node/config.yml
+# Configuration for USPTOVehicleSearchNode
+
+endpoint: "https://developer.uspto.gov/ipmarketplace-api/search/query"
+request_type: GET
+request_parameter: "searchText=vehicles"
+description: "Search for Text Vehicles"
+documentation_url: "https://developer.uspto.gov/api-catalog?ref=freepublicapis.com"

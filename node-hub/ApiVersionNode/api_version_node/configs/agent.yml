@@ -1,0 +1,7 @@
+# api_version_node.yml
+# Configuration for ApiVersionNode
+# No sensitive keys detected, only API endpoint and operational settings
+---
+endpoint: "https://api.cepik.gov.pl/version"  # Default API endpoint
+request_type: "GET"   # Default request type
+request_parameter: null  # No specific parameters needed by default

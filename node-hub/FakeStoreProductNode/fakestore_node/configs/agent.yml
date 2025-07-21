@@ -1,0 +1,23 @@
+# =============================
+# FakeStoreProductNode Config
+# =============================
+# No sensitive or environment variables detected.
+# Default API endpoints provided below
+
+api:
+  base_url: "https://fakestoreapi.com"
+  endpoints:
+    - path: "/products"
+      description: "Get all Products"
+      method: "GET"
+    - path: "/products/1"
+      description: "Get a single Product"
+      method: "GET"
+    - path: "/products/categories"
+      description: "Get all Categories"
+      method: "GET"
+    - path: "/products"
+      description: "Sort Results"
+      method: "GET"
+      params:
+        sort: "desc"

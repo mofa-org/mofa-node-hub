@@ -1,0 +1,10 @@
+# financial_entity_node_config.yml
+# Configuration for FinancialEntityLookupNode
+# Contains operational parameters (non-sensitive)
+
+endpoint: "https://entitydb.shodan.io/api/entities/symbol/GOOG"  # Financial Data API endpoint
+request_type: "GET"
+description: "Lookup Financial Data for Alphabet (GOOG)"
+documentation_url: "https://entitydb.shodan.io/?ref=freepublicapis.com"
+request_parameter: null
+error: false

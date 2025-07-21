@@ -1,0 +1,22 @@
+# Configuration file for red_tide_node
+# This file contains operational parameters for the RedTideSituationNode agent.
+
+endpoints:
+  # Traditional Chinese update
+  - url: "https://redtide.afcd.gov.hk/data/RTMS_ob_RTLC.json"
+    description: "Update of Red Tide Situation (Traditional Chinese)"
+    documentation_url: "https://data.gov.hk/en-data/dataset/hk-afcd-afcdlist-red-tide-location"
+    request_type: GET
+    request_parameter: ""
+  # Simplified Chinese update
+  - url: "https://redtide.afcd.gov.hk/data/RTMS_ob_RTLS.json"
+    description: "Update of Red Tide Situation (Simplified Chinese)"
+    documentation_url: "https://data.gov.hk/en-data/dataset/hk-afcd-afcdlist-red-tide-location"
+    request_type: GET
+    request_parameter: ""
+  # English update
+  - url: "https://redtide.afcd.gov.hk/data/RTMS_ob_RTLE.json"
+    description: "Update of Red Tide Situation (English)"
+    documentation_url: "https://data.gov.hk/en-data/dataset/hk-afcd-afcdlist-red-tide-location"
+    request_type: GET
+    request_parameter: ""

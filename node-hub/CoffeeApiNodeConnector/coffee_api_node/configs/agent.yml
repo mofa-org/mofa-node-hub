@@ -1,0 +1,15 @@
+# coffee_api_node_config.yml
+# Configuration for CoffeeApiNodeConnector
+# All parameters are public API endpoints and related info; no sensitive data present
+
+endpoints:
+  - url: "https://api.sampleapis.com/coffee/hot"
+    description: "Basic list of descriptions and ingredients for popular coffee drinks"
+    documentation_url: "https://sampleapis.com/api-list/coffee?ref=freepublicapis.com"
+    request_type: "GET"
+    request_parameter: ""
+  - url: "https://api.sampleapis.com/coffee/iced"
+    description: "Basic list of descriptions and ingredients for popular coffee drinks"
+    documentation_url: "https://sampleapis.com/api-list/coffee?ref=freepublicapis.com"
+    request_type: "GET"
+    request_parameter: ""

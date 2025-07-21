@@ -1,0 +1,14 @@
+# beer_api_node_config.yml
+# Configuration file for BeerApiNodeAgent
+
+api_settings:
+  # Base endpoint for Punk API
+  base_url: "https://punkapi.online/v3/beers"
+  # Default page size for list endpoint
+  page_size: 30
+
+feature_toggles:
+  # Enable or disable random beer retrieval feature
+  allow_random_beer: true
+
+# No sensitive information is required by the BeerApiNodeAgent.

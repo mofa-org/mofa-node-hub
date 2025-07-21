@@ -1,0 +1,16 @@
+# aws_pricing_node/config.yml
+# Configuration for AwsPricingNode
+# No sensitive keys detected. API endpoints are public.
+# You may adjust these values as needed.
+
+endpoints:
+  ec2:
+    url: "https://ec2.shop/?json"
+    description: "List all AWS EC2 Instances and their prices (on-demand, spot, and reserve) and specs"
+    documentation_url: "https://github.com/yeo/ec2.shop#api-document?ref=freepublicapis.com"
+    request_type: GET
+  rds:
+    url: "https://ec2.shop/rds?json"
+    description: "List RDS Instance price"
+    documentation_url: "https://github.com/yeo/ec2.shop#api-document?ref=freepublicapis.com"
+    request_type: GET

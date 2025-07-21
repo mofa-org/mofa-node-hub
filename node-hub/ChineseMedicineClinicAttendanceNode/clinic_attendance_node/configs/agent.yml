@@ -1,0 +1,16 @@
+# clinic_attendance_node.yml
+# Configuration for ChineseMedicineClinicAttendanceNode
+# No sensitive credentials needed for public endpoints
+
+endpoints:
+  - url: "https://www.ha.org.hk/opendata/cmctr/cmctr-attnd-sc.json"
+    description: "Number of Annual Attendances by Chinese Medicine Clinics cum Training and Research Centres (Simplified Chinese)"
+    language: "simplified-chinese"
+  - url: "https://www.ha.org.hk/opendata/cmctr/cmctr-attnd-en.json"
+    description: "Number of Annual Attendances by Chinese Medicine Clinics cum Training and Research Centres (English)"
+    language: "english"
+  - url: "https://www.ha.org.hk/opendata/cmctr/cmctr-attnd-tc.json"
+    description: "Number of Annual Attendances by Chinese Medicine Clinics cum Training and Research Centres (Traditional Chinese)"
+    language: "traditional-chinese"
+
+# No API keys required for these public endpoints

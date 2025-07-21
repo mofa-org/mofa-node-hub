@@ -1,0 +1,9 @@
+# Configuration file for CanadianDatasetNode
+# Non-sensitive operational parameters
+canadian_dataset_node:
+  endpoint: "https://open.canada.ca/data/api/action/package_show"
+  request_type: "GET"
+  request_parameter: "id=5953da6b-d81b-4a2c-8b27-145892827fb0"
+  documentation_url: "https://search.open.canada.ca/opendata/?ref=freepublicapis.com"
+  # example response parameter indicating an error (boolean)
+  error: false

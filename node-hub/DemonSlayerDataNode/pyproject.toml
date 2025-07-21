@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "DemonSlayerDataNode"
+version = "0.1.0"
+description = "Auto-generated agent package"
+authors = [
+    "Mofa Bot <mofa-bot@moxin.com>",
+    "Technical Owner <eng@moxin.com>"
+]
+packages = [{ include = "demon_slayer_node" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pyarrow = ">= 5.0.0"
+# ⟨⟨auto⟩⟩ Detected from code patterns:
+# requests.get → requests = "*"
+requests = "*"
+
+[tool.poetry.scripts]
+DemonSlayerDataNode = "demon_slayer_node.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

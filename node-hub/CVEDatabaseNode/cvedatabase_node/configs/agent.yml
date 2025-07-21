@@ -1,0 +1,6 @@
+# cvedatabase_node_config.yml
+# Configuration file for the CVEDatabaseNode module
+# No sensitive information detected. Adjust the endpoint if necessary.
+endpoint: "https://cvedb.shodan.io/cve/CVE-2016-10087"
+request_type: GET
+# No additional parameters or authentication required

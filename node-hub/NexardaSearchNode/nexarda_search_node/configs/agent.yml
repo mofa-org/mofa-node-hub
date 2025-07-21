@@ -1,0 +1,9 @@
+# nexarda_search_node_config.yml
+# Configuration for NexardaSearchNode
+# Documentation: https://github.com/NEXARDA/NEXARDA?ref=freepublicapis.com
+---
+endpoint: "https://www.nexarda.com/api/v3/search"  # API endpoint base URL
+default_query:
+  type: "games"
+  q: "Example Game" # Default search term, change as needed
+request_type: "GET"

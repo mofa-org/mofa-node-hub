@@ -1,0 +1,21 @@
+# geoplugin_node_config.yml
+# Configuration for GeoPluginIntegrationNode
+
+# No sensitive environment keys detected. All endpoints are public APIs and parameters are non-sensitive.
+
+# Example endpoints (no secrets required, but included for clarity in development)
+endpoints:
+  currency_converter:
+    url: "http://www.geoplugin.net/json.gp"
+    base_currency: "EUR"   # Default currency (can be parameterized)
+  ip_geolocation:
+    url: "http://www.geoplugin.net/json.gp" # No params needed
+
+# Request configuration
+request:
+  type: GET
+  timeout: 10 # seconds (reasonable default)
+
+documentation:
+  currency_converter: "https://www.geoplugin.com/webservices/json?ref=freepublicapis.com"
+  ip_geolocation: "https://www.geoplugin.com/webservices/json?ref=freepublicapis.com"

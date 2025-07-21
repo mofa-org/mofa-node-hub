@@ -1,0 +1,15 @@
+# Configuration for onepiece_api_node
+# These are default parameters for the OnePieceApiNode agent
+
+endpoints:
+  sagas: "https://api.api-onepiece.com/v2/sagas/en"
+  characters: "https://api.api-onepiece.com/v2/characters/en"
+  fruits: "https://api.api-onepiece.com/v2/fruits/en"
+
+# Timeout in seconds for API requests
+timeout: 10
+
+# Documentation reference
+api_documentation: "https://api-onepiece.com/en/documentation?ref=freepublicapis.com"
+
+# (No sensitive keys detected; all endpoints are public)

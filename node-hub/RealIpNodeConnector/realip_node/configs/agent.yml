@@ -1,0 +1,10 @@
+# config.yml
+# Configuration file for RealIpNodeConnector agent.
+# Contains non-sensitive operational parameters for the realip_node module.
+
+realip_node:
+  endpoint: "https://realip.cc"  # API endpoint
+  description: "Get IP info"      # Description of the API service
+  documentation_url: "https://realip.cc/docs?ref=freepublicapis.com"  # Docs URL
+  request_type: "GET"             # HTTP method for requests
+  request_parameter: ""           # Parameters for the request (currently none)

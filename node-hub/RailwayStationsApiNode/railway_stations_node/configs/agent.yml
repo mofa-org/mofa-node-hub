@@ -1,0 +1,5 @@
+# RailwayStationsApiNode Configuration
+default_country: "ch"    # Default country code (e.g., ch for Switzerland)
+base_url: "https://api.railway-stations.org"  # Default base URL for the API
+station_id_example: "de/2513" # Example station id (e.g., de/2513 for Hamburg Dammtor)
+timeout: 10     # Default timeout for API requests (in seconds)

@@ -1,0 +1,10 @@
+# Configuration file for OpenverseImageSearchNode
+# Contains operational parameters for API usage
+
+openverse_image_search:
+  endpoint: "https://api.openverse.org/v1/images/"
+  request_type: "GET"
+  request_parameter: "format=json&q=dog"
+  timeout: 30  # Default timeout for API requests (in seconds)
+  # Optionally adjust max_results, etc.
+  max_results: 10

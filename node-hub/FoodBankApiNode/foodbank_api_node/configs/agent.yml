@@ -1,0 +1,20 @@
+# foodbank_api_node_config.yml
+# Configuration for FoodBankApiNode
+# Contains adjustable parameters for API request behavior
+
+api:
+  # Base URL for the GiveFood API
+  base_url: "https://www.givefood.org.uk/api/2"
+
+  # Timeout for API requests (in seconds)
+  timeout: 30  # Default timeout value for HTTP requests
+
+# Feature tunables
+features:
+  # Enable or disable use of locations search endpoint
+  enable_location_search: true
+
+  # Enable or disable retrieval of all food bank organisations
+  enable_org_list: true
+
+# No sensitive key/secret detected: No .env file required

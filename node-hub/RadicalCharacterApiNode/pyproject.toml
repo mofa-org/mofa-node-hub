@@ -1,0 +1,22 @@
+# STRICT TEMPLATE - NO DEVIATIONS
+[tool.poetry]
+name = "RadicalCharacterApiNode"
+version = "0.1.0"
+description = "Auto-generated agent package"
+authors = [
+    "Mofa Bot <mofa-bot@moxin.com>",
+    "Technical Owner <eng@moxin.com>"
+]
+packages = [{ include = "radical_character_api" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pyarrow = ">= 5.0.0"
+requests = "*" # ⟨⟨auto⟩⟩ Detected from usage of HTTP endpoint (GET)
+
+[tool.poetry.scripts]
+RadicalCharacterApiNode = "radical_character_api.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

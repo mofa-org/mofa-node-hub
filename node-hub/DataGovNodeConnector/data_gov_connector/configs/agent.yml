@@ -1,0 +1,14 @@
+# config.yml for DataGovNodeConnector
+# Non-sensitive operational parameters for the Data.gov API
+
+endpoints:
+  - endpoint: "https://catalog.data.gov/api/3/action/package_search"
+    description: "List Data Packages"
+    documentation_url: "https://data.gov/developers/apis/"
+    request_type: GET
+    request_parameter: None
+  - endpoint: "https://catalog.data.gov/api/3/action/group_list"
+    description: "Group List"
+    documentation_url: "https://data.gov/developers/apis/"
+    request_type: GET
+    request_parameter: None

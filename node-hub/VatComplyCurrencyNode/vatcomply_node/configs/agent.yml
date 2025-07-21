@@ -1,0 +1,15 @@
+# vatcomply_node.yml
+# Configuration file for VatComplyCurrencyNode
+
+api:
+  # The base URL for VatComply API
+  base_url: https://api.vatcomply.com
+
+# Default configurations
+rates:
+  default_base: EUR     # Default base currency for rates
+  historical_date:      # Set to a date string for historical rates (e.g., '2000-04-05')
+currency:
+  enable_geolocation: true   # Toggle whether to use geolocation endpoint
+vat:
+  example_vat_number: NL810462783B01  # Example for VAT validation

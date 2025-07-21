@@ -1,0 +1,6 @@
+# html_to_pdf_node_config.yml
+# Default settings for HtmlToPdfConverterNode
+
+endpoint: "https://html2pdf.fly.dev/api/generate"  # API endpoint for HTML to PDF conversion
+request_type: "POST"  # HTTP request method to use
+request_parameter: ""  # Add required parameters here, if any

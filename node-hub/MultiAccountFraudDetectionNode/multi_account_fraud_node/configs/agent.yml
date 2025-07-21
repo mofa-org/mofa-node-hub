@@ -1,0 +1,8 @@
+# multi_account_fraud_node/config.yml
+# Non-sensitive configuration for MultiAccountFraudDetectionNode
+endpoint: "https://dymo.tpeoficial.com/?ch-pg=freepublicapis.com"
+description: "Multi-account and fraud detection. Sending emails without ending up in SPAM."
+documentation_url: "https://tpe.li/D-DMAPI?ref=freepublicapis.com"
+request_type: "GET"
+request_parameter: "Copy URL Parameter | Value"
+error: false

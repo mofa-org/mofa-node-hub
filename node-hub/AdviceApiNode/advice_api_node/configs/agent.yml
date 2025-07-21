@@ -1,0 +1,10 @@
+# advice_api_node.yml
+# Configuration for AdviceApiNode agent
+
+advice_api:
+  # API base URL
+  base_url: "https://api.adviceslip.com/"
+  # Request timeout in seconds
+  timeout: 10
+  # Enable/Disable logging
+  logging: true

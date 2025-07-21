@@ -1,0 +1,11 @@
+# startrek_season_node_config.yml
+# Configuration for StarTrekSeasonNode
+# No secrets or sensitive keys required for this configuration since the endpoint is public
+# and all parameters are hardcoded in the node code. Adjust defaults if needed.
+
+season_api:
+  endpoint: "https://stapi.co/api/v1/rest/season"
+  request_type: "GET"
+  default_uid: "SAMA0000001633"   # Default Season UID (can be changed as needed)
+  documentation_url: "https://stapi.co/?ref=freepublicapis.com"
+  description: "Provides access to Star Trek seasons information."

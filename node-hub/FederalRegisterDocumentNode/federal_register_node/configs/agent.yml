@@ -1,0 +1,9 @@
+# Configuration for FederalRegisterDocumentNode
+# No sensitive information is needed for this node as all requests are public
+
+federal_register_node:
+  api_base_url: "https://www.federalregister.gov/api/v1"
+  # Set default publication date if needed (optional)
+  default_publication_date: "2023-03-14"
+  # You can adjust request timeout in seconds
+  request_timeout: 10

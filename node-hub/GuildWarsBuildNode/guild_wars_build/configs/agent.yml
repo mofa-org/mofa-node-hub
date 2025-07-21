@@ -1,0 +1,8 @@
+# guild_wars_build_config.yml
+# Default configuration for GuildWarsBuildNode API node
+# You can adjust these defaults as needed.
+
+api:
+  endpoint: "https://api.guildwars2.com/v2/build"  # API URL for Guild Wars 2 build
+  request_type: "GET"                              # Supported API request type
+  request_parameter: ""                            # Default: no special request parameter

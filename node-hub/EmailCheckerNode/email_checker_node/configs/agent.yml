@@ -1,0 +1,15 @@
+# email_checker_node.yml
+# Configuration file for EmailCheckerNode
+
+api:
+  # API endpoint for checking email addresses
+  endpoint: "https://api.usercheck.com/email/"
+  # Default email to check (can be overridden per request)
+  default_email: "hello@freepublicapis.com"
+
+settings:
+  # Set to true to enable error logging
+  log_errors: true
+  # Default request timeout in seconds
+  timeout: 10
+

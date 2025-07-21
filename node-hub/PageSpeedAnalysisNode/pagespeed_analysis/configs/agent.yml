@@ -1,0 +1,10 @@
+# ===============================
+# PageSpeed Analysis Node Configuration
+# ===============================
+pagespeed_analysis:
+  # Request timeout in seconds
+  timeout: 30  # Reasonable default
+  # Default locale for API responses
+  locale: en_US
+  # Default strategy (can be 'mobile' or 'desktop')
+  strategy: mobile

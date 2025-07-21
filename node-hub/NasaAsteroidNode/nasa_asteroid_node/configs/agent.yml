@@ -1,0 +1,7 @@
+# config.yml for NasaAsteroidNode
+# Non-sensitive operational and request parameter defaults
+api:
+  base_url: "https://api.nasa.gov/neo/rest/v1"
+  default_start_date: "2023-09-07"
+  default_end_date: "2023-09-08"
+  # This config file can be extended for feature toggles or parameter adjustments

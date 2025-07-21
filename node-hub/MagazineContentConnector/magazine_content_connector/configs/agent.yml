@@ -1,0 +1,11 @@
+# magazine_content_connector.yml
+# General configuration for MagazineContentConnector Node
+api:
+  base_url: "https://www.freepublicapis.com/magazine-api"   # The base endpoint for the Magazine API
+  timeout: 30                                           # Timeout in seconds for API requests
+  enable_logging: true                                   # Enable/disable logging
+request:
+  allowed_parameters:
+    - categories
+    - tags
+    - publication_dates

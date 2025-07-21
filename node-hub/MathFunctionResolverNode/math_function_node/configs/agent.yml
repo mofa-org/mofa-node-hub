@@ -1,0 +1,12 @@
+# math_function_node configuration
+default:
+  # API endpoint for math calculations
+  endpoint: "https://math.oglimmer.de/v1/calc"
+  # Description/documentation for usage reference
+  documentation_url: "https://math.oglimmer.com/swagger/ui?ref=freepublicapis.com"
+  # HTTP request method for communicating with the service
+  request_type: "GET"
+  # Example parameters for requests
+  default_params:
+    expression: "3+4*x"
+    x: 5

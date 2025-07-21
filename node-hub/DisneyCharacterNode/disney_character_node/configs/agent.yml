@@ -1,0 +1,9 @@
+# DisneyCharacterNode YAML Configuration
+# Non-sensitive configuration for Disney API node module
+disney_character_node:
+  # Base URL for Disney API (public API)
+  base_url: "https://api.disneyapi.dev"
+  # Timeout for HTTP requests (in seconds)
+  timeout: 30
+  # Default query parameters (can be empty)
+  default_params: {}

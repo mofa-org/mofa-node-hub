@@ -1,0 +1,9 @@
+# telegram_channel_api_config.yml
+# Configuration file for TelegramChannelApiNode
+
+description: "This API allows interaction with Telegram channels, enabling users to view channel details, images, and descriptions. It helps manage subscriptions and engage with content in a seamless way."
+endpoint: "https://t.me/n9he1"
+documentation_url: "https://t.me/n9he1?ref=freepublicapis.com"
+request_type: "GET"
+request_parameter: ""
+# No sensitive information required for configuration

@@ -1,0 +1,8 @@
+# sumo_rikishi_node/config.yml
+# Configuration for SumoRikishiApiNode
+# These are non-sensitive API settings
+
+api:
+  endpoint: "https://www.sumo-api.com/api/rikishis"  # Sumo API endpoint
+  limit: 100  # Default limit for requests (max 1000 per docs)
+  skip: 0      # Default skip value for pagination

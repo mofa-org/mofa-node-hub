@@ -1,0 +1,16 @@
+# zurich_foot_traffic_config.yml
+# Configuration for ZurichFootTrafficNode
+
+endpoints:
+  - url: "https://data.stadt-zuerich.ch/api/3/action/datastore_search?resource_id=ec1fc740-8e54-4116-aab7-3394575b4666&q=jones"
+    description: "Ergebnisse die 'jones' enthalten"
+    request_type: GET
+    request_parameter: "resource_id=ec1fc740-8e54-4116-aab7-3394575b4666&q=jones"
+    error: false
+    documentation_url: "https://data.stadt-zuerich.ch/dataset/hystreet_fussgaengerfrequenzen?ref=freepublicapis.com"
+  - url: "https://data.stadt-zuerich.ch/api/3/action/datastore_search?resource_id=ec1fc740-8e54-4116-aab7-3394575b4666&limit=5&sort=timestamp%20desc"
+    description: "Newest Passantenfrequenzen at all locations (with params limit=5 & sort=timestamp desc)"
+    request_type: GET
+    request_parameter: "resource_id=ec1fc740-8e54-4116-aab7-3394575b4666&limit=5&sort=timestamp%20desc"
+    error: false
+    documentation_url: "https://data.stadt-zuerich.ch/dataset/hystreet_fussgaengerfrequenzen?ref=freepublicapis.com"

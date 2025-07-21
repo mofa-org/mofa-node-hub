@@ -1,0 +1,9 @@
+# network_ip_node_config.yml
+# Configuration for Network IP Address Node
+# No sensitive information detected
+network_ip_node:
+  endpoint: "https://api.ipty.org"  # API endpoint for fetching IP info
+  description: "This API provides the public IP address of a user and network info."
+  documentation_url: "https://ipty.org?ref=freepublicapis.com"
+  request_type: "GET"
+  request_parameter: null

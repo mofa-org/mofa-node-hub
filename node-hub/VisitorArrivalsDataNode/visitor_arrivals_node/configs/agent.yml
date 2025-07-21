@@ -1,0 +1,12 @@
+# visitor_arrivals_node/config.yml
+# Configuration file for VisitorArrivalsDataNode agent
+
+# API endpoint for fetching visitor arrivals data
+api_config:
+  endpoint: "https://www.censtatd.gov.hk/api/get.php?id=650-80001&lang=en&full_series=1"
+  request_type: "GET"
+  timeout: 30 # seconds (default; may adjust as needed)
+# Documentation URL (for reference)
+documentation_url: "https://data.gov.hk/en-data/dataset/hk-censtatd-tablechart-650-80001"
+# Request parameter placeholder
+default_request_parameter: "Copy URL Parameter| Value"

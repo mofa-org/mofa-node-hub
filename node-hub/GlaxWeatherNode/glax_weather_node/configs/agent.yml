@@ -1,0 +1,17 @@
+# glax_weather_node_config.yml
+# Configuration for GlaxWeatherNode
+# No sensitive or secret information detected
+
+# Default API endpoint to use (can be overridden if needed)
+weather_api:
+  base_url: "https://dragon.best/api/glax_weather.json"
+  default_units: "metric"
+  forecast_enabled: true
+
+# Request default parameters
+weather_request_defaults:
+  lat: 7.4474
+  lon: 46.9481
+  location: ""
+  units: "metric"
+  forecast: "on"

@@ -1,0 +1,9 @@
+# website_carbon_node_config.yml
+# Configuration for WebsiteCarbonNode
+# No sensitive information detected; adjust parameters as needed
+
+website_carbon:
+  endpoint: "https://api.websitecarbon.com/site"
+  request_type: "GET"
+  default_url: "https://www.freepublicapis.com"
+  enable_error_handling: true # Set to false if you want to skip error checks

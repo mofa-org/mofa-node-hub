@@ -1,0 +1,17 @@
+# Configuration for RosaryPrayerNode
+# No sensitive information detected; all settings are public API endpoints.
+
+endpoints:
+  - name: monday_text
+    url: https://the-rosary-api.vercel.app/v1/monday
+    description: Monday Rosary Prayer (Text)
+    documentation: https://therosaryapi.cf/?ref=freepublicapis.com
+    method: GET
+    parameters: {}
+
+  - name: today_audio
+    url: https://the-rosary-api.vercel.app/v1/today
+    description: Todays Rosary Prayer (Audio)
+    documentation: https://therosaryapi.cf/?ref=freepublicapis.com
+    method: GET
+    parameters: {}

@@ -1,0 +1,11 @@
+# pokemon_tcg_node configuration
+# This file contains non-sensitive operational parameters for your agent
+
+pokemon_tcg_node:
+  api:
+    endpoint: "https://db.ygoprodeck.com/api/v7/cardinfo.php"  # API base endpoint for card data
+    request_type: "GET"  # Allowed request method
+    timeout: 30  # Default timeout in seconds for API requests
+  feature:
+    enable_card_filtering: true  # Toggle for filtering functionality
+  documentation_url: "https://ygoprodeck.com/api-guide/?ref=freepublicapis.com" # Reference documentation for developers

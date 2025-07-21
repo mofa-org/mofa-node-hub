@@ -1,0 +1,13 @@
+# flyff_api_node_config.yml
+# Configuration for the FlyffApiNodeAgent
+
+api:
+  base_url: "https://api.flyff.com/"
+  # Endpoints you may use
+  endpoints:
+    - path: "/class"        # Get all Class IDs
+    - path: "/class/764"    # Get Data from Class ID 764
+    - path: "/world"        # Get World IDs
+    - path: "/world/6063"   # Get Data from World ID 6063
+  timeout: 30     # request timeout in seconds (default value)
+  retries: 3      # number of retry attempts

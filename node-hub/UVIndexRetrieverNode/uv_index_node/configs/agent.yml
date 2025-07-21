@@ -1,0 +1,19 @@
+# uv_index_node/config.yml
+# Non-sensitive configurations for UVIndexRetrieverNode agent
+
+api:
+  # Default endpoint for UV index retrieval
+  endpoint: "https://currentuvindex.com/api/v1/uvi"
+  # Default request method
+  method: "GET"
+  # Default coordinates (NYC as example)
+  latitude: 40.6943
+  longitude: -73.9249
+  # Documentation for reference
+  documentation_url: "https://currentuvindex.com/api?ref=freepublicapis.com"
+  # Request parameters
+  parameters:
+    - latitude
+    - longitude
+  # Error default
+  error: false

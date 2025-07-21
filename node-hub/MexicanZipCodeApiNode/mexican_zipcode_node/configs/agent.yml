@@ -1,0 +1,13 @@
+# mexican_zipcode_node_config.yml
+# Configuration for MexicanZipCodeApiNode.
+# All endpoints are public, no sensitive data used.
+
+api:
+  base_url: "https://sepomex.icalialabs.com/api/v1/"
+  endpoints:
+    municipalities: "municipalities"
+    zip_codes: "zip_codes"
+    states: "states"
+    cities: "cities"
+  # Add custom headers or timeout if needed
+  timeout: 30  # seconds

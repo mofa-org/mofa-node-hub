@@ -1,0 +1,6 @@
+# config.yml for open_trivia_node
+# Non-sensitive operational parameters
+endpoint: "https://opentdb.com/api.php"
+amount: 10
+request_type: "GET"
+# Add other configuration parameters as needed

@@ -1,0 +1,7 @@
+# ip_geolocation_node_config.yml
+# Configuration file for IPGeolocationNode
+
+endpoint: "https://api.ipapi.is/"  # Base URL for the IPGeolocation API
+request_type: "GET"                # HTTP method
+request_parameter: "q"             # Query parameter for the IP address
+# timeout: 30                       # (optional) Request timeout in seconds

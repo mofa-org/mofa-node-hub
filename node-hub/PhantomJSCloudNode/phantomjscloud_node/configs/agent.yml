@@ -1,0 +1,6 @@
+# config.yml for phantomjscloud_node
+phantomjscloud:
+  endpoint: https://phantomjscloud.com/api/browser/v2/${PHANTOMJS_CLOUD_KEY}/  # Endpoint template, key interpolated from environment
+  renderType: plainText  # Default render type
+  outputAsJson: true     # Output as JSON by default
+  timeout: 30           # Default timeout in seconds

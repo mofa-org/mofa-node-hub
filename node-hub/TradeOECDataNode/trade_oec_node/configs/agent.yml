@@ -1,0 +1,37 @@
+# trade_oec_node.yml
+# Configuration file for the TradeOECDataNode agent
+# These are operational parameters, not sensitive keys.
+
+api:
+  base_url: "https://oec.world/api/olap-proxy/data.jsonrecords"
+  default_locale: "en"
+
+# Example endpoints (for easy reference)
+endpoints:
+  - description: "Trade destinations of French exports in 2012"
+    query:
+      Year: 2012
+      cube: trade_i_baci_a_92
+      Exporter Country: eufra
+      drilldowns: "Exporter Country,Importer Country"
+      measures: "Trade Value,Quantity"
+      sort: "Trade Value.desc"
+
+  - description: "Products exported by Brazil in 2015"
+    query:
+      Year: 2015
+      cube: trade_i_baci_a_92
+      Exporter Country: sabra
+      drilldowns: "Exporter Country,HS4"
+      measures: "Trade Value,Quantity"
+      sort: "Trade Value.desc"
+      properties: "Exporter Country ISO 2,Exporter Country ISO 3"
+
+  - description: "List of countries sorted by total exports"
+    query:
+      Year: 2022
+      cube: trade_i_baci_a_92
+      drilldowns: "Exporter Country"
+      measures: "Trade Value,Quantity"
+      sort: "Trade Value.desc"
+      properties: "Exporter Country ISO 2,Exporter Country ISO 3"

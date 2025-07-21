@@ -1,0 +1,18 @@
+# Configuration file for WebsiteScreenshotExtractor
+# See: https://screenshotof.com?ref=freepublicapis.com
+
+website_screenshot:
+  # Endpoint for fetching current website screenshot and metadata
+  current_endpoint: "https://screenshotof.com/github.com?f=json"
+
+  # Endpoint for fetching historical website screenshots (format: https://screenshotof.com/{site}/{date}?f=json)
+  historical_endpoint: "https://screenshotof.com/bbc.co.uk/2024-04?f=json"
+
+  # Documentation for endpoints
+  documentation_url: "https://screenshotof.com?ref=freepublicapis.com"
+
+  # HTTP method to use for requests
+  request_type: GET
+
+  # Whether to enable error reporting for endpoints
+  error: false

@@ -1,0 +1,8 @@
+# dnd_api_node_config.yml
+# Non-sensitive configuration for DnDApiNodeConnector node
+
+api_settings:
+  # Base URL for D&D 5e API
+  base_url: "https://www.dnd5eapi.co/api/"
+  # Default request timeout in seconds
+  timeout: 10

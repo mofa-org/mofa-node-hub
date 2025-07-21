@@ -1,0 +1,21 @@
+# nekosia_image_fetcher/config.yml
+# Configuration file for the NekosiaAnimeImageFetcher agent
+
+endpoints:
+  - url: "https://api.nekosia.cat/api/v1/images/tail-with-ribbon"
+    description: "Tail with ribbon"
+  - url: "https://api.nekosia.cat/api/v1/images/foxgirl"
+    description: "Fetch random foxgirl"
+  - url: "https://api.nekosia.cat/api/v1/images/maid"
+    description: "Anime maid"
+  - url: "https://api.nekosia.cat/api/v1/images/vtuber"
+    description: "Random VTuber"
+  - url: "https://api.nekosia.cat/api/v1/images/thigh-high-socks"
+    description: "Thigh High Socks"
+  - url: "https://api.nekosia.cat/api/v1/images/cute"
+    description: "Random cute anime pics"
+  - url: "https://api.nekosia.cat/api/v1/images/catgirl"
+    description: "Fetch nekos (anime catgirl)"
+
+# No sensitive information detected.
+# Adjust endpoints here as needed.

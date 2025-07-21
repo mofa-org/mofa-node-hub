@@ -1,0 +1,17 @@
+# Configuration for WikiFeatureWebNode
+wiki_feature_node:
+  # Endpoint for MediaWiki API (public, no sensitive data)
+  endpoint: "https://en.wikipedia.org/w/api.php"
+  # Description of the API service
+  description: "A web service providing access to wiki features like authentication, page operations, and search. It offers meta information about the wiki and logged-in user."
+  # Documentation for API usage
+  documentation_url: "https://www.mediawiki.org/wiki/API:Main_page#?ref=freepublicapis.com"
+  # Request type (GET/POST)
+  request_type: "GET"
+  # Default API parameters for content query
+  request_parameter:
+    action: "query"
+    prop: "revisions"
+    titles: "bird"
+    rvprop: "content"
+    format: "json"

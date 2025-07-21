@@ -1,0 +1,10 @@
+# open_elevation_node_config.yml
+# Non-sensitive settings for OpenElevationNode
+open_elevation_node:
+  endpoint: "https://api.open-elevation.com/api/v1/lookup"
+  description: "Free alternative to Google Elevation API"
+  documentation_url: "https://www.open-elevation.com/?ref=freepublicapis.com"
+  request_type: "GET"
+  request_parameter_default: "locations=41.161758,-8.583933"
+
+# You can customize the 'request_parameter_default' value as needed

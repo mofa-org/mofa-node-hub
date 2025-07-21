@@ -1,0 +1,12 @@
+# article_list_node.yml
+# YAML configuration for ArticleListRetrieverNode
+# No sensitive data detected; normal config only
+
+article_list_node:
+  api:
+    endpoint: "https://api.elifesciences.org/articles"
+    description: "Returns a list of recently published articles"
+    documentation_url: "https://api.elifesciences.org/documentation/?ref=freepublicapis.com"
+    request_type: "GET"
+    request_parameter: null
+    error: false

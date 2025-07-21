@@ -1,0 +1,12 @@
+# CheapShark Deals Node Configuration
+# This YAML config file includes operational and parameter settings.
+
+api:
+  # Base API endpoint for CheapShark
+  base_url: "https://www.cheapshark.com/api/1.0"
+  # Default search query
+  default_title: "batman"
+  # Request type for searching deals/games
+  request_type: "GET"
+
+# No sensitive information detected (no API keys or secrets required).

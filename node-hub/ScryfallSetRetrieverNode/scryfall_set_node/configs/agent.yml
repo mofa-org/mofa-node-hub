@@ -1,0 +1,10 @@
+# scryfall_set_node_config.yml
+# Configuration for the ScryfallSetRetrieverNode
+
+set_request:
+  endpoint: "https://api.scryfall.com/sets/aer"   # Scryfall API endpoint for Aether Revolt set
+  description: "Retrieve the Aether Revolt set"
+  documentation_url: "https://scryfall.com/docs/api?ref=freepublicapis.com"  # Link to Scryfall API docs
+  request_type: "GET"                # HTTP method
+  request_parameter: ""               # No parameters needed by default
+  error: false                       # Error flag; set to true only in exceptional cases

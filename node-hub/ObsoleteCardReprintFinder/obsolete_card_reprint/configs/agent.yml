@@ -1,0 +1,10 @@
+# Configuration file for obsolete_card_reprint
+# Contains endpoint URLs and operational parameters
+
+api:
+  # API endpoint for retrieving functional reprints
+  functional_reprints_url: "https://www.strictlybetter.eu/api/functional_reprints"
+  # API endpoint template for obsoletes lookup (append card name)
+  obsoletes_url_template: "https://www.strictlybetter.eu/api/obsoletes/{card_name}"
+
+# No sensitive data detected. These are public APIs.

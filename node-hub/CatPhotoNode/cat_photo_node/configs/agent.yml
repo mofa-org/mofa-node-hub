@@ -1,0 +1,9 @@
+# cat_photo_node/config.yml
+# Node configuration for CatPhotoNode
+# No sensitive keys detected. Below are configurable parameters.
+
+endpoints:
+  - "https://purr.woody.cat/1" # Get photo by ID
+  - "https://purr.woody.cat"   # Get random photo
+request_type: "GET"
+# No authentication or sensitive data required

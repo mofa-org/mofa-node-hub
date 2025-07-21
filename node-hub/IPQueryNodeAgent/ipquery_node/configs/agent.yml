@@ -1,0 +1,16 @@
+# ipquery_node_config.yml
+# Configuration for IPQueryNodeAgent
+
+# API endpoint for IPQuery
+endpoint: "https://api.ipquery.io/?format=json"  # Default IPQuery endpoint
+
+# Default request parameters
+request_parameter: "format=json"
+
+# Request type
+request_type: "GET"
+
+# Enable error simulation for testing (default: false)
+error: false
+
+# Additional configuration options can be added below

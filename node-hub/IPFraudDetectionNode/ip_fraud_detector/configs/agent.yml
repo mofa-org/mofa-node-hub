@@ -1,0 +1,5 @@
+# config.yml for IPFraudDetectionNode
+endpoint: "https://check.getipintel.net/check.php"
+default_format: "json"
+default_request_type: "GET"
+# Add other non-sensitive defaults as necessary

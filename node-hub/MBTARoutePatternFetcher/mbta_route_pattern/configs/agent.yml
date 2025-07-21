@@ -1,0 +1,8 @@
+# mbta_route_pattern/config.yml
+# Configuration for MBTARoutePatternFetcher
+
+mbta_route_pattern:
+  endpoint: "https://api-v3.mbta.com/route_patterns?filter[route]=CR-Providence&include=representative_trip&fields[trip]=headsign"  # API endpoint for route patterns
+  request_type: "GET" # HTTP request method
+  request_parameter: "filter[route], include, fields[trip]" # Documented request parameters
+  timeout: 30 # reasonable default request timeout (seconds)

@@ -1,0 +1,10 @@
+# dog_api_node_config.yml
+# Configuration file for DogApiNode agent
+# Provides operational parameters for dog api node module
+
+api_config:
+  base_url: "https://dog.ceo/api"        # Base URL for API requests
+  timeout: 30                             # Default timeout in seconds for API requests
+  retry_attempts: 3                       # Retry attempts for failed requests
+
+# No sensitive keys detected; no .env needed

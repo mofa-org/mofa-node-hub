@@ -1,0 +1,16 @@
+# chinese_text_node/config.yml
+# Configuration for ChineseTextApiNode
+
+# Description:
+# This configuration file contains operational parameters for the ChineseTextApiNode.
+# No sensitive environment variables or API keys are required based on the provided node code.
+
+api:
+  endpoint: "https://api.ctext.org/getdictionaryheadwords"
+  request_type: "GET"
+  timeout: 10  # seconds, adjust as needed
+
+feature_flags:
+  enable_logging: true
+  retry_on_failure: true
+  max_retries: 3

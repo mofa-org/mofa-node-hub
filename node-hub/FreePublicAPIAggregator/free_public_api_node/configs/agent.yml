@@ -1,0 +1,8 @@
+# Configuration file for free_public_api_node
+# Auto-generated based on detected parameters from the node code
+
+api_config:
+  base_url: "https://www.freepublicapis.com/api"           # Base endpoint for Free Public APIs
+  timeout: 10                                            # Default timeout for API requests (seconds)
+  default_limit: 10                                      # Default limit for listing APIs
+  sort: "best"                                          # Default sort order

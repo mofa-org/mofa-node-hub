@@ -1,0 +1,10 @@
+# uuid_generator_node_config.yml
+# Configuration for UUIDGeneratorNode
+
+# Number of UUIDs to generate per request (default: 3)
+request:
+  count: 3  # int, adjust as needed
+
+# API endpoint configuration
+endpoint:
+  url: "https://www.uuidtools.com/api/generate/v1/count/3"

@@ -1,0 +1,24 @@
+# config.yml for SpaceLaunchDataNode
+# Default operational parameters for endpoints and request options
+
+space_launch:
+  endpoints:
+    launch_data:
+      url: "https://ll.thespacedevs.com/2.2.0/config/launcher/?format=json"
+      description: "Get Launch Data"
+      docs: "https://thespacedevs.com/llapi?ref=freepublicapis.com"
+      request_type: GET
+      params: {}
+    agencies:
+      url: "https://ll.thespacedevs.com/2.2.0/agencies/?limit=10&format=json"
+      description: "Get Space Agencies"
+      docs: "https://thespacedevs.com/llapi?ref=freepublicapis.com"
+      request_type: GET
+      params:
+        limit: 10
+    astronauts:
+      url: "https://ll.thespacedevs.com/2.2.0/astronaut/?format=json"
+      description: "Get Astronauts"
+      docs: "https://thespacedevs.com/llapi?ref=freepublicapis.com"
+      request_type: GET
+      params: {}

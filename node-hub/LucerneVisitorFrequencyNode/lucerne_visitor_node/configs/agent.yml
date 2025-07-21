@@ -1,0 +1,4 @@
+# config.yml for LucerneVisitorFrequencyNode
+# Regular operational settings. Edit defaults as needed.
+endpoint: https://portal.alfons.io/app/devicecounter/api/sensors
+request_type: GET

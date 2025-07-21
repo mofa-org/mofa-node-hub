@@ -1,0 +1,10 @@
+# population_data_node/config.yml
+# Configuration for PopulationDataNode
+
+endpoint: "https://datausa.io/api/data?drilldowns=Nation&measures=Population"
+description: "Population data from 2013 to today"
+documentation_url: "https://datausa.io/?ref=freepublicapis.com"
+request_type: "GET"
+request_parameter: "drilldowns=Nation&measures=Population"
+# Set error handling behavior (default: false)
+error: false

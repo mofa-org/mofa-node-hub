@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "WikiFeatureWebNode"
+version = "0.1.0"
+description = "Auto-generated agent package"
+authors = [
+    "Mofa Bot <mofa-bot@moxin.com>",
+    "Technical Owner <eng@moxin.com>"
+]
+packages = [{ include = "wiki_feature_node" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pyarrow = ">= 5.0.0"
+requests = "*" # auto: detected from 'requests.get' or HTTP calls
+
+[tool.poetry.scripts]
+WikiFeatureWebNode = "wiki_feature_node.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

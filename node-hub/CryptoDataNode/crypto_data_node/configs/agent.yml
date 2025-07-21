@@ -1,0 +1,15 @@
+# crypto_data_node_config.yml
+# Configuration for CryptoDataNode
+# No sensitive keys required; all endpoints are public
+
+coingecko:
+  endpoints:
+    get_price:
+      url: "https://api.coingecko.com/api/v3/coins/bitcoin/history"
+      params:
+        date: "13-05-2024"  # Default date, change as needed
+    search:
+      url: "https://api.coingecko.com/api/v3/search"
+      params:
+        query: "bitcoin"      # Default query, change as needed
+  timeout: 30  # Request timeout seconds, default value

@@ -1,0 +1,8 @@
+# joke_api_node_config.yml
+# Configuration file for JokeApiNodeAgent
+
+api_base_url: "https://www.yomama-jokes.com/api/v1/jokes/"
+timeout: 10  # Default request timeout in seconds
+
+# No sensitive configuration detected.
+# Update values if you want to override defaults.

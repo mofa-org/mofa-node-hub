@@ -1,0 +1,14 @@
+# apple_appstore_node.yaml
+# Configuration for AppleAppStoreMetadataNode
+
+api:
+  # Apple App Store metadata API endpoint
+  endpoint: "https://app-store-metadata-api.kula.app/api/v1/apple/apps/361309726"
+  # Human-readable service description
+  description: "Reliable access to metadata for applications available the Apple App Store."
+  # Documentation for the API
+  documentation_url: "https://app-store-metadata-api.kula.app?ref=freepublicapis.com"
+  # HTTP request type
+  request_type: "GET"
+  # Request parameter(s)
+  request_parameter: ""

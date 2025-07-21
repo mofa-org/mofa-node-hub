@@ -1,0 +1,8 @@
+# radio_basilisk_node_config.yml
+# Configuration for RadioBasiliskTrackHistoryNode
+radio_basilisk_node:
+  endpoint: "https://radio-basilisk.api.radiosphere.io/channels/87d0aaab-1db2-453b-af40-63bdde8cd1d1/track-history" # API endpoint for track history
+  request_type: "GET" # HTTP method to use
+  description: "This API shows the last played songs on Radio Basilisk."
+  documentation_url: "https://www.basilisk.ch/?ref=freepublicapis.com"
+  request_parameter: null # No parameters required

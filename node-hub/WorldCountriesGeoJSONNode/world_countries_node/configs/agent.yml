@@ -1,0 +1,19 @@
+# config.yml for world_countries_node
+# All settings below are safe to share and non-sensitive.
+
+# Endpoint base URL to fetch GeoJSON World Countries data
+data_source:
+  base_url: "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/World_Countries_(Generalized)/FeatureServer/0/query"
+  # Parameters for retrieving all countries
+  default_params:
+    outFields: "*"
+    where: "1=1"
+    f: "geojson"
+  # Example parameter for filtering by country
+  country_param: "COUNTRY"
+  example_country: "France"
+
+# Request options:
+request:
+  type: "GET"
+  timeout: 30 # seconds (adjust as necessary for your environment)

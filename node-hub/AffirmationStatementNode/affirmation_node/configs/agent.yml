@@ -1,0 +1,5 @@
+# Configuration for the affirmation_node module
+# No sensitive information detected; operational parameters only.
+affirmation_api:
+  endpoint: "https://www.affirmations.dev/"  # URL endpoint for inspirational affirmations
+  timeout: 10  # Reasonable default timeout in seconds for API requests

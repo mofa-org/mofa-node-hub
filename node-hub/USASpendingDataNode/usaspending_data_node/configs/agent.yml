@@ -1,0 +1,10 @@
+# usaspending_data_node_config.yml
+# Configuration for the USASpendingDataNode agent
+# No sensitive keys detected; all parameters are public API calls.
+
+usaspending:
+  endpoint: "https://api.usaspending.gov//api/v2/references/toptier_agencies/"
+  request_type: "GET"
+  description: "The USAspending API provides public access to comprehensive U.S. government spending data, including federal contracts and grants. It helps users understand spending trends and accountability through award and agency breakdowns, as mandated by the DATA Act."
+  documentation_url: "https://api.usaspending.gov/?ref=freepublicapis.com"
+  request_parameter: null # No parameters needed

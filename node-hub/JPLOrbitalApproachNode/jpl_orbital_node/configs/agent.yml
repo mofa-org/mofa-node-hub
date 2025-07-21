@@ -1,0 +1,20 @@
+# jpl_orbital_node/config.yml
+# JPLOrbitalApproachNode configuration file
+# No sensitive keys detected, only operational parameters are set here.
+
+api:
+  # The endpoint for the NASA JPL Close-Approach Data API
+  endpoint: "https://ssd-api.jpl.nasa.gov/cad.api"
+
+  # Default GET parameters for the close-approach query
+  parameters:
+    des: "433"                # Designation of the object
+    date-min: "1900-01-01"   # Minimum date
+    date-max: "2100-01-01"   # Maximum date
+    dist-max: "0.2"          # Maximum approach distance (AU)
+
+  # Request type (GET or POST)
+  request_type: "GET"
+
+# Documentation reference
+api_docs_url: "https://ssd-api.jpl.nasa.gov/doc/cad.html?ref=freepublicapis.com"

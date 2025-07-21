@@ -1,0 +1,12 @@
+# insult_generator_node.yml
+# Configuration file for InsultGeneratorNode agent
+
+api:
+  # Base endpoint for Evil Insult API
+  endpoint: "https://evilinsult.com/generate_insult.php"
+
+  # Default parameters for API request
+  lang: "en"        # Language code (default: English)
+  type: "json"      # Response type (options: json, xml, plain)
+
+# No sensitive information detected; this YAML contains only operational parameters.

@@ -1,0 +1,13 @@
+# Configuration for MateriaFusionNode
+# Provides endpoints and operational details for the Node
+
+endpoints:
+  materia_list: "https://crisis-core-materia-fusion-api-546461677134.us-central1.run.app/materia"
+  health_check: "https://crisis-core-materia-fusion-api-546461677134.us-central1.run.app/status"
+  fusion: "https://crisis-core-materia-fusion-api-546461677134.us-central1.run.app/fusion"
+
+timeouts:
+  request: 30   # seconds
+
+feature_flags:
+  enable_fusion: true
